@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar.jsx'
 import ReportForm from './components/ReportForm.jsx';
 import RouteMap from './components/RouteMap.jsx'
+import Leaderboard from './components/Leaderboard';
 
 function App() {
   const [userReduced, setReduced] = useState({});
@@ -25,6 +26,7 @@ function App() {
           ]}
       />
       <ReportForm />
+      <Leaderboard />
     </div>
   );
 }
