@@ -1,0 +1,51 @@
+{
+    "personal-analytics": [{
+        "date": "Today",
+        "emission-reduced": "34",
+        "emission-created": "276",
+        "miles-walked": "11",
+        "miles-biked": "4",
+        "miles-drove": "80",
+        "miles-transit": "15"
+    },{
+        "date": "This Week",
+        "emission-reduced": "845",
+        "emission-created": "276",
+        "miles-walked": "34",
+        "miles-biked": "0",
+        "miles-drove": "80",
+        "miles-transit": "43"
+    },{
+        "date": "Last Week",
+        "emission-reduced": "1724",
+        "emission-created": "70",
+        "miles-walked": "22",
+        "miles-biked": "106",
+        "miles-drove": "23",
+        "miles-transit": "37"
+    },{
+        "date": "This Month",
+        "emission-reduced": "2623",
+        "emission-created": "923",
+        "miles-walked": "69",
+        "miles-biked": "112",
+        "miles-drove": "115",
+        "miles-transit": "131"
+    },{
+        "date": "This Year",
+        "emission-reduced": "11638",
+        "emission-created": "4492",
+        "miles-walked": "241",
+        "miles-biked": "328",
+        "miles-drove": "625",
+        "miles-transit": "824"
+    },{
+        "date": "Lifetime",
+        "emission-reduced": "11638",
+        "emission-created": "4492",
+        "miles-walked": "241",
+        "miles-biked": "328",
+        "miles-drove": "625",
+        "miles-transit": "824"
+    }]
+}
