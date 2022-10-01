@@ -1,9 +1,15 @@
 .App {
   text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
 }
 
 .navbar {
   padding: 20px;
+}
+
+.nav-link{
+  margin-left: 30%;
 }
 
 
