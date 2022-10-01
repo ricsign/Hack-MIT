@@ -4,7 +4,7 @@ const ReportForm = (startTrip, stopTrip, status, submit) => {
   const title = <h3>Add a Trip</h3>
 
   return (
-    <div style={{backgroundColor:"#E1FFB1", padding:"5%", margin:"5% 0"}}>
+    <div className="mt-5 p-5" style={{backgroundColor:"#E1FFB1"}}>
 
     <div className="row">
         <div className="col-6 m-auto">
