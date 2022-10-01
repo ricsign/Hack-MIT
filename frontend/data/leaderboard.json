@@ -1,0 +1,27 @@
+{
+    "leaderboard": [{
+        "name": "John",
+        "emission-reduced": "1291",
+        "green-percentage": "85",
+        "miles-traveled": "80",
+        "main-transportation": "walking"
+    },{
+        "name": "ABC",
+        "emission-reduced": "1201",
+        "green-percentage": "80",
+        "miles-traveled": "93",
+        "main-transportation": "biking"
+    },{
+        "name": "DEF",
+        "emission-reduced": "1134",
+        "green-percentage": "87",
+        "miles-traveled": "50",
+        "main-transportation": "walking"
+    },{
+        "name": "Edward",
+        "emission-reduced": "996",
+        "green-percentage": "57",
+        "miles-traveled": "220",
+        "main-transportation": "car"
+    }]
+}
