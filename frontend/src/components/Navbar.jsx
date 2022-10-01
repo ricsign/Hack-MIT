@@ -3,7 +3,7 @@ import React from "react";
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
+      <nav className="navbar navbar-expand-lg mb-5" style={{backgroundColor: "#E1FFB1"}}>
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <i><b>Sus Tainability</b></i>
