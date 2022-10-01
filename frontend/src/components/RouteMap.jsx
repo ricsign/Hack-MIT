@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from 'react'
-import { GoogleMap, LoadScript } from '@react-google-maps/api'
+import React, { useEffect, useState } from 'react';
+import { GoogleMap, LoadScript, MarkerF, PolylineF } from '@react-google-maps/api';
 
-export default function RouteMap(props) {
-    const trips = props.trips;
-
+export default function RouteMap({trips}) {
     const [ bounds, setBounds ] = useState({ latMin: 0, latMax: 0, lngMin: 0, lngMax: 0 })
 
     useEffect(() => {
@@ -20,10 +18,6 @@ export default function RouteMap(props) {
     }, [trips]);
 
     const calcCenter = (bounds) => {
-        console.log({
-            lat: (bounds.latMin + bounds.latMax) / 2,
-            lng: (bounds.lngMin + bounds.lngMax) / 2,
-        });
         return {
             lat: (bounds.latMin + bounds.latMax) / 2,
             lng: (bounds.lngMin + bounds.lngMax) / 2,
@@ -33,9 +27,16 @@ export default function RouteMap(props) {
     const calcZoom = (bounds) => {
         const latZoomFactor = 180 / (bounds.latMax - bounds.latMin);
         const lngZoomFactor = 360 / (bounds.lngMax - bounds.lngMin);
-        console.log(latZoomFactor);
-        console.log(lngZoomFactor);
-        return Math.ceil(Math.log2(Math.max(latZoomFactor, lngZoomFactor)));
+        return Math.floor(Math.log2(Math.min(latZoomFactor, lngZoomFactor)));
+    }
+
+    const tripPolyline = (trip) => {
+        return (
+            <PolylineF
+                path={trip.map(({lat, lng}) => ({lat, lng}))}
+
+            />
+        );
     }
 
     return (
@@ -51,10 +52,15 @@ export default function RouteMap(props) {
                 zoom={calcZoom(bounds)}
                 options={{
                     disableDefaultUI: true,
-                    draggable: false
+                    gestureHandling: "none",
+                    zoomControl: false,
+                    panControl: false,
+                    clickableIcons: false,
                 }}
             >
-                <></>
+                {trips.map((trip) =>
+                    tripPolyline(trip)
+                )}
             </GoogleMap>
         </LoadScript>
     );
