@@ -7,7 +7,7 @@ export default function RouteMap({trips}) {
     useEffect(() => {
         let latMin = 90, latMax = -90, lngMin = 180, lngMax = -180;
         for (const trip of trips) {
-            for (const loc of trip) {
+            for (const loc of trip.coords) {
                 latMin = Math.min(latMin, loc.lat);
                 latMax = Math.max(latMax, loc.lat);
                 lngMin = Math.min(lngMin, loc.lng);
@@ -31,10 +31,20 @@ export default function RouteMap({trips}) {
     }
 
     const tripPolyline = (trip) => {
+        let color = "black";
+        if (trip.type === "biking" || trip.type === "walking")
+            color = "green";
+        else if (trip.type === "transit")
+            color = "yellow";
+        else if (trip.type === "driving")
+            color = "red";
+
         return (
             <PolylineF
-                path={trip.map(({lat, lng}) => ({lat, lng}))}
-
+                options={{
+                    strokeColor: color
+                }}
+                path={trip.coords.map(({lat, lng}) => ({lat, lng}))}
             />
         );
     }

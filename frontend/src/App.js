@@ -19,16 +19,16 @@ function App() {
       <h2>Today: you have reduced {userReduced["today"]}</h2>
       <RouteMap trips={
           [
-              [
+              {type: "driving", coords: [
                   {lat: 42.3736, lng: -71.1097},
                   {lat: 42.3601, lng: -71.0589},
                   {lat: 42.3651, lng: -71.0089},
-              ],
-              [
+              ]},
+              {type: "biking", coords: [
                   {lat: 42.3736, lng: -71.6097},
                   {lat: 42.3601, lng: -71.5589},
                   {lat: 42.3651, lng: -71.5089},
-              ]
+              ]},
           ]}
       />
       <ReportForm />
