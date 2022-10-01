@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { GoogleMap, LoadScript } from '@react-google-maps/api';
+import { GoogleMap, LoadScript } from '@react-google-maps/api'
 
 export default function RouteMap(props) {
     const trips = props.trips;
@@ -30,6 +30,14 @@ export default function RouteMap(props) {
         }
     }
 
+    const calcZoom = (bounds) => {
+        const latZoomFactor = 180 / (bounds.latMax - bounds.latMin);
+        const lngZoomFactor = 360 / (bounds.lngMax - bounds.lngMin);
+        console.log(latZoomFactor);
+        console.log(lngZoomFactor);
+        return Math.ceil(Math.log2(Math.max(latZoomFactor, lngZoomFactor)));
+    }
+
     return (
         <LoadScript
             googleMapsApiKey={process.env.REACT_APP_MAPS_API_KEY}
@@ -40,7 +48,11 @@ export default function RouteMap(props) {
                     height: "20em",
                 }}
                 center={calcCenter(bounds)}
-                zoom={10}
+                zoom={calcZoom(bounds)}
+                options={{
+                    disableDefaultUI: true,
+                    draggable: false
+                }}
             >
                 <></>
             </GoogleMap>
