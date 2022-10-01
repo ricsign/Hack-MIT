@@ -6,7 +6,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <i><b>Sus Tainability</b></i>
+            <i><b>Sus Tainability A</b></i>
           </a>
           <button
             className="navbar-toggler"
