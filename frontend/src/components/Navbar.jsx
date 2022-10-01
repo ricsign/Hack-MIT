@@ -25,7 +25,13 @@ function Navbar() {
                 Home
               </a>
               <a className="nav-link" href="#">
-                Features
+                Record
+              </a>
+              <a className="nav-link" href="#">
+                Leaderboard
+              </a>
+              <a className="nav-link" href="#">
+                Analytics
               </a>
             </div>
           </div>
