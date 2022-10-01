@@ -15,8 +15,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <h2>Today: you have saved {userReduced["today"]}</h2>
-      <ReportForm />
+      <h2>Today: you have reduced {userReduced["today"]} tons of greenhouse gases</h2>
       <RouteMap trips={
           [
               [
@@ -25,6 +24,7 @@ function App() {
               ]
           ]}
       />
+      <ReportForm />
     </div>
   );
 }
