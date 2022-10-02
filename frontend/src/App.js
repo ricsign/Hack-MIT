@@ -8,47 +8,68 @@ import ReportForm from './components/ReportForm.jsx';
 import RouteMap from './components/RouteMap.jsx'
 import Leaderboard from './components/Leaderboard';
 import PersonalAnalytics from './components/PersonalAnalytics';
+import { routes } from './data/routes';
 
 function App() {
+  const DATA_SOURCE = "gps"
+
+  const [trips, setTrips] = useState([]);
+  const [tripMode, setTripMode] = useState("walking")
+  const [localDataPos, setLocalDataPos] = useState({ file: 0, line: 0 })
   const [userReduced, setReduced] = useState({});
-  const [lat, setLat] = useState(null);
-  const [lng, setLng] = useState(null);
-  const [locations, setLocations] = useState([]);
   const [status, setStatus] = useState(null);
   const [delay, setDelay] = useState(null);
   const [distanceTraveled, setDistance] = useState(0);
 
+  const addToTrip = (coord) => {
+    console.log(coord)
+    setTrips(old => {
+      const lastInd = old.length - 1;
+      const prevTrips = old.slice(0, lastInd);
+      prevTrips.push({ type: old[lastInd].type, coords: [...old[lastInd].coords, coord]});
+      return prevTrips;
+    });
+  }
+
   const getLocation = () => {
-    if (!navigator.geolocation) {
-      setStatus('Geolocation is not supported by your browser');
-    } else {
-      setStatus(null)
+    if (DATA_SOURCE === "gps") {
+      console.log(trips)
+      if (!navigator.geolocation) {
+        setStatus('Geolocation is not supported by your browser');
+      } else {
+        setStatus(null)
         navigator.geolocation.getCurrentPosition((position) => {
-        console.log(position.coords)
-        let tempLat = position.coords.latitude
-        let tempLong = position.coords.longitude
-        console.log(lat)
-        console.log(lng)
-        let distance = getPreciseDistance(
-          {latitude: lat, longitude: lng},
-          {latitude: tempLat, longitude: tempLong}
-        );
-        setDistance(oldDistance => oldDistance + distance);
-        setLocations(locations => [...locations, [tempLat, tempLong]]);
-        setLat(tempLat);
-        setLng(tempLong);
-      }, () => {
-        setStatus('Unable to retrieve your location');
-      });
+          let tempLat = position.coords.latitude
+          let tempLng = position.coords.longitude
+          let lastTrip = trips[trips.length - 1]
+          let lastLoc = lastTrip.coords.length > 0 ? lastTrip.coords[lastTrip.coords.length - 1] : { lat: tempLat, lng: tempLng }
+          let distance = getPreciseDistance(
+            { latitude: lastLoc.lat, longitude: lastLoc.lng },
+            { latitude: tempLat, longitude: tempLng }
+          );
+          setDistance(oldDistance => oldDistance + distance);
+          addToTrip({lng: tempLng, lat: tempLat})
+        }, () => {
+          setStatus('Unable to retrieve your location');
+        });
+      }
+    } else if (DATA_SOURCE === "local") {
+      addToTrip(routes[localDataPos.file][localDataPos.line]);
+      setLocalDataPos((old) => ({
+        file: old.file,
+        line: Math.min(old.line + 1, routes[old.file].length - 1),
+      }))
     }
   }
 
-
   const startTrip = () => {
-    setDelay(300);
+    setTrips([...trips, {type: tripMode, coords: []}])
+    getLocation()
+    setDelay(5000);
   };
 
   const endTrip = () => {
+    setLocalDataPos(old => ({ file: Math.min(routes.length - 1, old.file + 1), line: 0 }));
     setDelay(null);
   };
 
@@ -62,8 +83,17 @@ function App() {
   useEffect(() => {
     var curReduced = getUser(0);
     setReduced(curReduced);
-
   }, []);
+
+  useEffect(() => {
+    console.log(tripMode);
+    setTrips((old) => {
+      if (old.length > 0) {
+        old[old.length - 1].type = tripMode;
+      }
+      return old;
+    });
+  }, [tripMode]);
 
   return (
     <div className="App">
@@ -76,21 +106,13 @@ function App() {
         
       </div>
       
-      <RouteMap trips={
-          [
-              {type: "driving", coords: [
-                  {lat: 42.3736, lng: -71.1097},
-                  {lat: 42.3601, lng: -71.0589},
-                  {lat: 42.3651, lng: -71.0089},
-              ]},
-              {type: "biking", coords: [
-                  {lat: 42.3736, lng: -71.6097},
-                  {lat: 42.3601, lng: -71.5589},
-                  {lat: 42.3651, lng: -71.5089},
-              ]},
-          ]}
+      <RouteMap trips={trips} />
+      <ReportForm
+        startTrip = {startTrip}
+        stopTrip = {endTrip}
+        mode={tripMode}
+        setMode={setTripMode}
       />
-      <ReportForm startTrip = {startTrip} stopTrip = {endTrip}/>
       <Leaderboard />
       <PersonalAnalytics />
     </div>

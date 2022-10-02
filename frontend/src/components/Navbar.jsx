@@ -6,7 +6,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-dark align-self-start">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <i><b>Sus Tainability</b></i>
+            <img src="logo.png" alt="Time Tracker Logo" width="75px"/>
           </a>
           <button
             className="navbar-toggler"

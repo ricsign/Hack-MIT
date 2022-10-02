@@ -1,8 +1,6 @@
 import { React, useState } from "react";
 
-const ReportForm = ({startTrip, stopTrip}) => {
-  const title = <h3>Add a Trip</h3>
-  const [mode, setMode] = useState("")
+const ReportForm = ({startTrip, stopTrip, mode, setMode}) => {
   const [isTripStarted, setIsTripStarted] = useState(false);
   const handleStart = () => {
     setIsTripStarted(true)
@@ -32,7 +30,9 @@ const ReportForm = ({startTrip, stopTrip}) => {
           <label>
             Pick your mode of transportation:
             <br />
-            <select value={mode} onChange={setMode}>
+            <select value={mode} onChange={(e) => {
+              setMode(e.target.value)
+            }}>
               <option value="walking">Walking</option>
               <option value="biking">Biking</option>
               <option value="transit">Public Transit</option>
