@@ -22,17 +22,21 @@ function App() {
     if (!navigator.geolocation) {
       setStatus('Geolocation is not supported by your browser');
     } else {
-      setStatus('Locating...');
-      navigator.geolocation.getCurrentPosition((position) => {
-        setStatus(null);
-        var distance = getPreciseDistance(
+      setStatus(null)
+        navigator.geolocation.getCurrentPosition((position) => {
+        console.log(position.coords)
+        let tempLat = position.coords.latitude
+        let tempLong = position.coords.longitude
+        console.log(lat)
+        console.log(lng)
+        let distance = getPreciseDistance(
           {latitude: lat, longitude: lng},
-          {latitude: position.coords.latitude, longitude: position.coords.longitude}
+          {latitude: tempLat, longitude: tempLong}
         );
         setDistance(oldDistance => oldDistance + distance);
-        setLocations(locations => [...locations, [position.coords.latitude, position.coords.longitude]]);
-        setLat(position.coords.latitude);
-        setLng(position.coords.longitude);
+        setLocations(locations => [...locations, [tempLat, tempLong]]);
+        setLat(tempLat);
+        setLng(tempLong);
       }, () => {
         setStatus('Unable to retrieve your location');
       });
@@ -41,7 +45,7 @@ function App() {
 
 
   const startTrip = () => {
-    setDelay(30000);
+    setDelay(300);
   };
 
   const endTrip = () => {
