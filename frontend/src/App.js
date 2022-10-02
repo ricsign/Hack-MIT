@@ -7,6 +7,7 @@ import Navbar from './components/Navbar.jsx'
 import ReportForm from './components/ReportForm.jsx';
 import RouteMap from './components/RouteMap.jsx'
 import Leaderboard from './components/Leaderboard';
+import PersonalAnalytics from './components/PersonalAnalytics';
 
 function App() {
   const [userReduced, setReduced] = useState({});
@@ -80,6 +81,7 @@ function App() {
       />
       <ReportForm startTrip = {startTrip} endTrip = {endTrip}/>
       <Leaderboard />
+      <PersonalAnalytics />
     </div>
   );
 }
