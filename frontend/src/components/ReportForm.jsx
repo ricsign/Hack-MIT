@@ -17,19 +17,18 @@ const ReportForm = ({startTrip, stopTrip}) => {
       <h2>Record a Trip:</h2>
       {!isTripStarted && (
         <form
-          onSubmit={handleStart}
         >
-          <button
-            type="submit"
+          <input
+            type="button"
             value="Start Trip"
             className="btn btn-primary btn-lg mt-3"
             onClick={handleStart}
-          >Start Trip</button>
+          />
         </form>
       )}
 
       {isTripStarted && (
-        <form onSubmit={handleStop}>
+        <form >
           <label>
             Pick your mode of transportation:
             <br />
@@ -42,9 +41,10 @@ const ReportForm = ({startTrip, stopTrip}) => {
           </label>
           <br />
           <input
-            type="submit"
+            type="button"
             value="Stop Trip"
             className="btn btn-primary btn-lg mt-3"
+            onClick={handleStop}
           />
         </form>
       )}
