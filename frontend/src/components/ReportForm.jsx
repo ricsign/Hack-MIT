@@ -13,8 +13,8 @@ const ReportForm = ({startTrip, stopTrip}) => {
     stopTrip()
   }
   return (
-    <div className="p-4" style={{ backgroundColor: "#E1FFB1" }}>
-      <h2>Record a Trip:</h2>
+    <div id="record" className="p-4" style={{ backgroundColor: "#E1FFB1" }}>
+      <h1>Record a Trip</h1>
       {!isTripStarted && (
         <form
         >

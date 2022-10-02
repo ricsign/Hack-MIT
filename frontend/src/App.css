@@ -4,6 +4,9 @@
   font-size: 18px;
 }
 
+h1 {
+  font-weight: bold;
+}
 
 .navbar {
   padding: 20px;

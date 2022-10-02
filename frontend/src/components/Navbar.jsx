@@ -21,16 +21,16 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link active" ariaCurrent="page" href="#">
+              <a className="nav-link active" ariaCurrent="page" href="#home">
                 Home
               </a>
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#record">
                 Record
               </a>
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#leaderboard">
                 Leaderboard
               </a>
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#analytics">
                 Analytics
               </a>
             </div>

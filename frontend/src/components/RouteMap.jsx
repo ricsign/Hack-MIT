@@ -60,12 +60,13 @@ export default function RouteMap({ trips }) {
 
   return (
     <div
+      id="home"
       style={{ margin: "auto", textAlign: "center" }}
     >
       <LoadScript googleMapsApiKey={process.env.REACT_APP_MAPS_API_KEY}>
         <GoogleMap
           mapContainerStyle={{
-            width: "100em",
+            width: "80em",
             height: "40em",
           }}
           center={calcCenter(bounds)}

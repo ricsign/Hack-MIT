@@ -2,7 +2,7 @@ import React from "react";
 
 function PersonalAnalytics() {
   return (
-    <div className="p-4 mt-5" style={{ backgroundColor: "#E1FFB1" }}>
+    <div id="analytics" className="p-4 mt-5" style={{ backgroundColor: "#E1FFB1" }}>
       <h1>My Analytics</h1>
       <div class="row row-cols-1 row-cols-md-3 g-4 p-4">
         <div class="col">
