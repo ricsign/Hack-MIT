@@ -11,7 +11,7 @@ import PersonalAnalytics from './components/PersonalAnalytics';
 import { routes } from './data/routes';
 
 function App() {
-  const DATA_SOURCE = "gps"
+  const DATA_SOURCE = "local"
 
   const [trips, setTrips] = useState([]);
   const [tripMode, setTripMode] = useState("walking")
@@ -73,7 +73,7 @@ function App() {
   const startTrip = () => {
     setTrips([...trips, {type: tripMode, coords: []}])
     getLocation()
-    setDelay(500);
+    setDelay(5000);
   };
 
   const endTrip = () => {
