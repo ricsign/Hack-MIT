@@ -1,30 +1,35 @@
 import { React, useState } from "react";
 
-const ReportForm = (startTrip, stopTrip) => {
+const ReportForm = ({startTrip, stopTrip}) => {
   const title = <h3>Add a Trip</h3>
   const [mode, setMode] = useState("")
   const [isTripStarted, setIsTripStarted] = useState(false);
-
+  const handleStart = () => {
+    setIsTripStarted(true)
+    startTrip()
+  }
+  const handleStop = () => {
+    setIsTripStarted(false)
+    stopTrip()
+  }
   return (
     <div className="p-4 mt-4" style={{ backgroundColor: "#E1FFB1" }}>
       <h2>Record a Trip:</h2>
       {!isTripStarted && (
         <form
-          onSubmit={startTrip}
-          onClick={() => {
-            setIsTripStarted(true);
-          }}
+          onSubmit={handleStart}
         >
-          <input
+          <button
             type="submit"
             value="Start Trip"
             className="btn btn-primary btn-lg mt-3"
-          ></input>
+            onClick={handleStart}
+          >Start Trip</button>
         </form>
       )}
 
       {isTripStarted && (
-        <form onSubmit={stopTrip}>
+        <form onSubmit={handleStop}>
           <label>
             Pick your mode of transportation:
             <br />
@@ -40,9 +45,6 @@ const ReportForm = (startTrip, stopTrip) => {
             type="submit"
             value="Stop Trip"
             className="btn btn-primary btn-lg mt-3"
-            onClick={() => {
-              setIsTripStarted(false);
-            }}
           />
         </form>
       )}

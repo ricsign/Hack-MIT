@@ -78,7 +78,7 @@ function App() {
               ]},
           ]}
       />
-      <ReportForm startTrip = {startTrip} endTrip = {endTrip}/>
+      <ReportForm startTrip = {startTrip} stopTrip = {endTrip}/>
       <Leaderboard />
     </div>
   );
