@@ -105,7 +105,6 @@ function App() {
         </h1>
         
       </div>
-      
       <RouteMap trips={trips} />
       <ReportForm
         startTrip = {startTrip}

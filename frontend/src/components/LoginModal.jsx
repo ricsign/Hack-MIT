@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import ReactModalLogin from "react-modal-login";
 
-
-const LoginModal = (props) => {
-  const [state, setState] = useState({
+const LoginModal = () => {
+  const [logInfo, setlogInfo] = useState({
     showModal: false,
     loggedIn: null,
     loading: false,
     error: null,
-    initialTab: null
+    initialTab: null,
+    recoverPasswordSuccess: null,
   });
 
   const onLogin = async (e, a, c) => {
@@ -22,7 +22,7 @@ const LoginModal = (props) => {
     const password = document.querySelector("#password").value;
 
     if (!email || !password) {
-      setState({
+      setlogInfo({
         error: true,
       });
     } else {
@@ -41,7 +41,7 @@ const LoginModal = (props) => {
     const password = document.querySelector("#password").value;
 
     if (!login || !email || !password) {
-      setState({
+      setlogInfo({
         error: true,
       });
     } else {
@@ -52,8 +52,9 @@ const LoginModal = (props) => {
 
   const openModal = (initialTab) => {
     console.log("openModal()");
-    setState({
-      ...state,
+
+    setlogInfo({
+      ...logInfo,
       initialTab: initialTab,
       showModal: true,
     });
@@ -61,8 +62,9 @@ const LoginModal = (props) => {
 
   const onLoginSuccess = (method, response) => {
     console.log("onLoginSuccess()");
-    setState({
-      ...state,
+
+    setlogInfo({
+      ...logInfo,
       showModal: false,
       error: null,
       loggedIn: method,
@@ -73,16 +75,16 @@ const LoginModal = (props) => {
 
   const startLoading = () => {
     console.log("startLoading()");
-    setState({
-      ...state,
+    setlogInfo({
+      ...logInfo,
       loading: true,
     });
   };
 
   const finishLoading = () => {
     console.log("finishLoading()");
-    setState({
-      ...state,
+    setlogInfo({
+      ...logInfo,
       loading: false,
     });
   };
@@ -90,8 +92,8 @@ const LoginModal = (props) => {
   const afterTabsChange = () => {
     console.log("afterTabsChange()");
 
-    setState({
-      ...state,
+    setlogInfo({
+      ...logInfo,
       error: null,
       recoverPasswordSuccess: false,
     });
@@ -99,30 +101,43 @@ const LoginModal = (props) => {
 
   const closeModal = () => {
     console.log('closeModal()');
-    setState({
-      ...state,
+    setlogInfo({
+      ...logInfo,
       showModal: false,
       error: null,
       loading: false,
     });
   };
 
-  useEffect(() => {
-    console.log("aslkfjhlkjhsdf")
-    openModal("login")
-  }, []);
+  const loggedIn = logInfo.loggedIn ? (
+    <div>
+      <p>You are signed in with: {logInfo.loggedIn}</p>
+    </div>
+  ) : (
+    <div>
+      <p>You are signed out</p>
+    </div>
+  );
 
-  const isLoading = state.loading;
+  const isLoading = logInfo.loading;
 
 
   return (
     <div>
+      <button className="RML-btn" onClick={() => openModal("login")}>
+        Login
+      </button>
+
+      <button className="RML-btn" onClick={() => openModal("register")}>
+        Register
+      </button>
+
       <ReactModalLogin
-        visible={state.showModal}
+        visible={logInfo.showModal}
         onCloseModal={closeModal}
         loading={isLoading}
-        initialTab={state.initialTab}
-        error={state.error}
+        initialTab={logInfo.initialTab}
+        error={logInfo.error}
         tabs={{
           afterChange: afterTabsChange,
         }}
@@ -131,6 +146,7 @@ const LoginModal = (props) => {
         form={{
           onLogin: onLogin,
           onRegister: onRegister,
+
           loginBtn: {
             label: "Sign in",
           },
@@ -160,12 +176,12 @@ const LoginModal = (props) => {
           registerInputs: [
             {
               containerClass: "RML-form-group",
-              label: "Username",
+              label: "Nickname",
               type: "text",
               inputClass: "RML-form-control",
               id: "login",
               name: "login",
-              placeholder: "Username",
+              placeholder: "Nickname",
             },
             {
               containerClass: "RML-form-group",
@@ -191,6 +207,7 @@ const LoginModal = (props) => {
           label: "or",
         }}
       />
+      {loggedIn}
     </div>
   );
 };
