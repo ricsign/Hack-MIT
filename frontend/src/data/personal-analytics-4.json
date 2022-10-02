@@ -1,1159 +1,1159 @@
 {
-    "personal-analytics-3": [
+    "personal-analytics-4": [
         {
             "date": "2022-10-01",
-            "miles-walked": "1.0314161072171",
-            "miles-biked": "1.6513479976777",
-            "miles-drove": "16.5199234513042",
-            "miles-transit": "5.03637010255388"
+            "miles-walked": "4.4515257362437",
+            "miles-biked": "2.15490463009617",
+            "miles-drove": "55.8073367712975",
+            "miles-transit": "16.1068624031707"
         },
         {
             "date": "2022-09-30",
-            "miles-walked": "2.47399255748101",
-            "miles-biked": "2.62076650071715",
-            "miles-drove": "34.1665572129155",
-            "miles-transit": "10.5025341848655"
+            "miles-walked": "1.83000891761745",
+            "miles-biked": "2.63006356843821",
+            "miles-drove": "35.1792728205271",
+            "miles-transit": "9.52138425146699"
         },
         {
             "date": "2022-09-29",
-            "miles-walked": "3.34632045607413",
-            "miles-biked": "3.80923358815979",
-            "miles-drove": "33.5094307889332",
-            "miles-transit": "10.3437936960819"
+            "miles-walked": "1.39327321186526",
+            "miles-biked": "2.64628800980016",
+            "miles-drove": "35.3683816959326",
+            "miles-transit": "8.11420544245401"
         },
         {
             "date": "2022-09-28",
-            "miles-walked": "2.35050962941242",
-            "miles-biked": "2.17125611474297",
-            "miles-drove": "33.8274973876459",
-            "miles-transit": "10.6604528644816"
+            "miles-walked": "0.540863559319919",
+            "miles-biked": "4.50159544500063",
+            "miles-drove": "36.7434732169409",
+            "miles-transit": "8.42356801494354"
         },
         {
             "date": "2022-09-27",
-            "miles-walked": "0.138086431717818",
-            "miles-biked": "2.6858747212181",
-            "miles-drove": "35.1969908067207",
-            "miles-transit": "10.3741851580055"
+            "miles-walked": "1.31394217254",
+            "miles-biked": "2.70162194075656",
+            "miles-drove": "36.1477767023861",
+            "miles-transit": "9.27124408634046"
         },
         {
             "date": "2022-09-26",
-            "miles-walked": "1.4744389729282",
-            "miles-biked": "4.57664940477843",
-            "miles-drove": "34.4929388898552",
-            "miles-transit": "10.1059450152"
+            "miles-walked": "1.12920142951081",
+            "miles-biked": "2.61143265460545",
+            "miles-drove": "34.8167027770159",
+            "miles-transit": "9.92197376726775"
         },
         {
             "date": "2022-09-25",
-            "miles-walked": "2.46029976806006",
-            "miles-biked": "2.27865544736594",
-            "miles-drove": "24.2374252906148",
-            "miles-transit": "5.78122220149975"
+            "miles-walked": "1.57055774145652",
+            "miles-biked": "1.0786002237122",
+            "miles-drove": "22.0475428692623",
+            "miles-transit": "5.81863379827441"
         },
         {
             "date": "2022-09-24",
-            "miles-walked": "0.407106549945696",
-            "miles-biked": "3.16716680438994",
-            "miles-drove": "24.3049835642191",
-            "miles-transit": "6.31250846787404"
+            "miles-walked": "1.70540848954536",
+            "miles-biked": "2.57704117984517",
+            "miles-drove": "27.4639271840147",
+            "miles-transit": "7.0686299171869"
         },
         {
             "date": "2022-09-23",
-            "miles-walked": "3.64532770604911",
-            "miles-biked": "3.12695511136498",
-            "miles-drove": "35.078364318034",
-            "miles-transit": "9.3980855393983"
+            "miles-walked": "2.61474539581043",
+            "miles-biked": "2.95178890069726",
+            "miles-drove": "34.913716937138",
+            "miles-transit": "8.59377654630962"
         },
         {
             "date": "2022-09-22",
-            "miles-walked": "0.884303817532757",
-            "miles-biked": "1.81504514807911",
-            "miles-drove": "34.6161801453522",
-            "miles-transit": "8.87508138997218"
+            "miles-walked": "0.448927694221326",
+            "miles-biked": "1.98704915469877",
+            "miles-drove": "35.5414514876725",
+            "miles-transit": "11.3252427237648"
         },
         {
             "date": "2022-09-21",
-            "miles-walked": "2.84232109074606",
-            "miles-biked": "2.70493813470748",
-            "miles-drove": "33.2765393791672",
-            "miles-transit": "10.1317335337864"
+            "miles-walked": "0.191820257200105",
+            "miles-biked": "3.16790072451134",
+            "miles-drove": "34.968327457216",
+            "miles-transit": "8.9113866308945"
         },
         {
             "date": "2022-09-20",
-            "miles-walked": "3.57087431235038",
-            "miles-biked": "3.20351021283741",
-            "miles-drove": "35.1560760146622",
-            "miles-transit": "10.3950326502699"
+            "miles-walked": "1.14596384463364",
+            "miles-biked": "2.68672317053118",
+            "miles-drove": "34.4046147021193",
+            "miles-transit": "10.26534105908"
         },
         {
             "date": "2022-09-19",
-            "miles-walked": "3.00962218821603",
-            "miles-biked": "3.28628259618707",
-            "miles-drove": "34.3701548808112",
-            "miles-transit": "10.6028219902163"
+            "miles-walked": "3.75357359294374",
+            "miles-biked": "3.35807015663498",
+            "miles-drove": "33.6930938668131",
+            "miles-transit": "9.22598319767495"
         },
         {
             "date": "2022-09-18",
-            "miles-walked": "0.747822483605815",
-            "miles-biked": "1.71707954480451",
-            "miles-drove": "17.9430918567856",
-            "miles-transit": "5.83086789444706"
+            "miles-walked": "2.54389395019929",
+            "miles-biked": "1.18426833427315",
+            "miles-drove": "56.8986333977533",
+            "miles-transit": "17.6478529355887"
         },
         {
             "date": "2022-09-17",
-            "miles-walked": "1.33913937057243",
-            "miles-biked": "6.98679309213481",
-            "miles-drove": "75.9818220334107",
-            "miles-transit": "22.8794084587132"
+            "miles-walked": "0.511692380175155",
+            "miles-biked": "1.91833851289132",
+            "miles-drove": "20.7350603030073",
+            "miles-transit": "6.119549655632"
         },
         {
             "date": "2022-09-16",
-            "miles-walked": "1.53286763663173",
-            "miles-biked": "3.71269585065144",
-            "miles-drove": "35.8263862902446",
-            "miles-transit": "11.127484777606"
+            "miles-walked": "2.54713253528323",
+            "miles-biked": "3.88900550190553",
+            "miles-drove": "33.3925007515897",
+            "miles-transit": "11.7617856998702"
         },
         {
             "date": "2022-09-15",
-            "miles-walked": "1.25034884612945",
-            "miles-biked": "3.13644447177503",
-            "miles-drove": "35.9175105579614",
-            "miles-transit": "9.79357987738241"
+            "miles-walked": "1.00684380040871",
+            "miles-biked": "4.89941102308922",
+            "miles-drove": "34.2388650144553",
+            "miles-transit": "8.65982556870389"
         },
         {
             "date": "2022-09-14",
-            "miles-walked": "2.15062029409598",
-            "miles-biked": "3.08212266118702",
-            "miles-drove": "36.0344414446552",
-            "miles-transit": "8.31362344629215"
+            "miles-walked": "1.75345376690674",
+            "miles-biked": "4.36094400146641",
+            "miles-drove": "34.3200528611883",
+            "miles-transit": "9.62186536328915"
         },
         {
             "date": "2022-09-13",
-            "miles-walked": "2.2070092918009",
-            "miles-biked": "2.42797501551653",
-            "miles-drove": "34.1158841407181",
-            "miles-transit": "9.20443719257291"
+            "miles-walked": "2.27690523906477",
+            "miles-biked": "2.53284041882504",
+            "miles-drove": "35.6574977039759",
+            "miles-transit": "10.0758513708293"
         },
         {
             "date": "2022-09-12",
-            "miles-walked": "0.918525893684557",
-            "miles-biked": "3.87690027847762",
-            "miles-drove": "32.8981194606085",
-            "miles-transit": "9.51723216548639"
+            "miles-walked": "2.8913393673091",
+            "miles-biked": "3.96459569221956",
+            "miles-drove": "35.3518047819665",
+            "miles-transit": "9.88624858305746"
         },
         {
             "date": "2022-09-11",
-            "miles-walked": "1.46869157863917",
-            "miles-biked": "0.943221905374622",
-            "miles-drove": "27.98607972754",
-            "miles-transit": "7.13816919608752"
+            "miles-walked": "0.596776394968273",
+            "miles-biked": "3.36269162334726",
+            "miles-drove": "43.0816926009926",
+            "miles-transit": "13.2649005468992"
         },
         {
             "date": "2022-09-10",
-            "miles-walked": "4.78657868503507",
-            "miles-biked": "3.17036032105963",
-            "miles-drove": "53.5704707963464",
-            "miles-transit": "12.154091528174"
+            "miles-walked": "0.987231445599227",
+            "miles-biked": "1.7126095617304",
+            "miles-drove": "20.5397343572999",
+            "miles-transit": "6.40634568526133"
         },
         {
             "date": "2022-09-09",
-            "miles-walked": "0.463243275430905",
-            "miles-biked": "2.31321598424311",
-            "miles-drove": "36.3766138852241",
-            "miles-transit": "10.82288489264"
+            "miles-walked": "2.96191545575663",
+            "miles-biked": "2.5421537182561",
+            "miles-drove": "33.2851823691334",
+            "miles-transit": "10.2960769246171"
         },
         {
             "date": "2022-09-08",
-            "miles-walked": "1.89632645549438",
-            "miles-biked": "3.8283843167763",
-            "miles-drove": "34.1861168996499",
-            "miles-transit": "10.8834457022001"
+            "miles-walked": "2.62782422124025",
+            "miles-biked": "2.09538174855968",
+            "miles-drove": "35.4688820357706",
+            "miles-transit": "11.001269161942"
         },
         {
             "date": "2022-09-07",
-            "miles-walked": "1.07839943798848",
-            "miles-biked": "2.63483158749891",
-            "miles-drove": "33.4093597418019",
-            "miles-transit": "10.2911600134179"
+            "miles-walked": "1.55425010107674",
+            "miles-biked": "3.56242621874346",
+            "miles-drove": "34.8984122111591",
+            "miles-transit": "11.3860720761925"
         },
         {
             "date": "2022-09-06",
-            "miles-walked": "3.20684876843369",
-            "miles-biked": "4.17991703811135",
-            "miles-drove": "35.2922045986567",
-            "miles-transit": "9.09287575052238"
+            "miles-walked": "1.13168121512471",
+            "miles-biked": "2.33612455611631",
+            "miles-drove": "35.071444573026",
+            "miles-transit": "9.26546089444778"
         },
         {
             "date": "2022-09-05",
-            "miles-walked": "1.57755488840137",
-            "miles-biked": "3.50541135668615",
-            "miles-drove": "34.8296697172303",
-            "miles-transit": "11.0978108825984"
+            "miles-walked": "2.8521599439499",
+            "miles-biked": "2.60793873946953",
+            "miles-drove": "34.9168700727543",
+            "miles-transit": "9.66288379823819"
         },
         {
             "date": "2022-09-04",
-            "miles-walked": "0.563877390862834",
-            "miles-biked": "2.2691390586896",
-            "miles-drove": "24.458055267762",
-            "miles-transit": "7.30317561759264"
+            "miles-walked": "1.44881151718279",
+            "miles-biked": "2.60645631870743",
+            "miles-drove": "40.9056945594037",
+            "miles-transit": "10.5517658539661"
         },
         {
             "date": "2022-09-03",
-            "miles-walked": "0.524213141712036",
-            "miles-biked": "6.963649492653",
-            "miles-drove": "75.1751414150135",
-            "miles-transit": "24.348049883236"
+            "miles-walked": "2.88552483340616",
+            "miles-biked": "6.28307067484403",
+            "miles-drove": "51.2638751121319",
+            "miles-transit": "15.670759056265"
         },
         {
             "date": "2022-09-02",
-            "miles-walked": "1.39779085535761",
-            "miles-biked": "1.70980859603435",
-            "miles-drove": "35.125596548415",
-            "miles-transit": "11.0563827016483"
+            "miles-walked": "2.56747217788275",
+            "miles-biked": "2.12629598603367",
+            "miles-drove": "34.2297067297898",
+            "miles-transit": "9.58745381598888"
         },
         {
             "date": "2022-09-01",
-            "miles-walked": "3.36755813870323",
-            "miles-biked": "3.9778274715607",
-            "miles-drove": "34.7977687976016",
-            "miles-transit": "8.20704681735808"
+            "miles-walked": "2.28004203822262",
+            "miles-biked": "4.12635509328608",
+            "miles-drove": "35.0224940532497",
+            "miles-transit": "9.77718625237128"
         },
         {
             "date": "2022-08-31",
-            "miles-walked": "1.79222722410626",
-            "miles-biked": "1.384970372759",
-            "miles-drove": "34.524601777235",
-            "miles-transit": "12.5017415270146"
+            "miles-walked": "2.33066230949805",
+            "miles-biked": "4.24534439372539",
+            "miles-drove": "35.0726777066994",
+            "miles-transit": "9.20451218414201"
         },
         {
             "date": "2022-08-30",
-            "miles-walked": "2.62489546621278",
-            "miles-biked": "2.1270627198702",
-            "miles-drove": "34.8003806816968",
-            "miles-transit": "10.2400010283344"
+            "miles-walked": "1.39548626475086",
+            "miles-biked": "2.36258303331284",
+            "miles-drove": "35.2863922213615",
+            "miles-transit": "11.7178396281297"
         },
         {
             "date": "2022-08-29",
-            "miles-walked": "2.18106451094846",
-            "miles-biked": "3.59903000561868",
-            "miles-drove": "34.0868820356599",
-            "miles-transit": "10.3407072681124"
+            "miles-walked": "1.54965693337392",
+            "miles-biked": "3.55579225224621",
+            "miles-drove": "34.2373653215811",
+            "miles-transit": "9.44909815277106"
         },
         {
             "date": "2022-08-28",
-            "miles-walked": "42.1818490961379",
-            "miles-biked": "53.8922904050868",
-            "miles-drove": "766.405227397524",
-            "miles-transit": "242.755743391638"
+            "miles-walked": "0.824217180757305",
+            "miles-biked": "0.842071851987773",
+            "miles-drove": "40.6231340361219",
+            "miles-transit": "12.7120975899106"
         },
         {
             "date": "2022-08-27",
-            "miles-walked": "0.465457594903657",
-            "miles-biked": "1.8370081947568",
-            "miles-drove": "22.390189559653",
-            "miles-transit": "5.75316525686367"
+            "miles-walked": "2.19203993714697",
+            "miles-biked": "4.74304354850246",
+            "miles-drove": "56.4237462925211",
+            "miles-transit": "14.7211758392305"
         },
         {
             "date": "2022-08-26",
-            "miles-walked": "4.40319915165252",
-            "miles-biked": "2.62807355988287",
-            "miles-drove": "33.603006031991",
-            "miles-transit": "11.5747480135376"
+            "miles-walked": "1.61636126281927",
+            "miles-biked": "3.89771839974914",
+            "miles-drove": "35.8960641968098",
+            "miles-transit": "9.74362931061331"
         },
         {
             "date": "2022-08-25",
-            "miles-walked": "2.37055749650698",
-            "miles-biked": "4.48610206049405",
-            "miles-drove": "34.5276210994095",
-            "miles-transit": "11.2111667491087"
+            "miles-walked": "2.30874764999991",
+            "miles-biked": "2.88758509724295",
+            "miles-drove": "35.677373451048",
+            "miles-transit": "11.5569199390004"
         },
         {
             "date": "2022-08-24",
-            "miles-walked": "2.09914340825951",
-            "miles-biked": "0.484996162063298",
-            "miles-drove": "35.2513585889588",
-            "miles-transit": "11.2505639605369"
+            "miles-walked": "1.87800384087898",
+            "miles-biked": "2.80008990272394",
+            "miles-drove": "34.0372981961911",
+            "miles-transit": "10.5536191766093"
         },
         {
             "date": "2022-08-23",
-            "miles-walked": "1.89468539897136",
-            "miles-biked": "1.36060811667625",
-            "miles-drove": "36.3947845044578",
-            "miles-transit": "9.12274239678694"
+            "miles-walked": "3.89488043029171",
+            "miles-biked": "4.26723739414378",
+            "miles-drove": "34.7564856719986",
+            "miles-transit": "7.94936158997959"
         },
         {
             "date": "2022-08-22",
-            "miles-walked": "0.768150362683683",
-            "miles-biked": "2.83602731445156",
-            "miles-drove": "33.4807970491215",
-            "miles-transit": "9.35801182531026"
+            "miles-walked": "0.212075306695102",
+            "miles-biked": "2.43302079489113",
+            "miles-drove": "33.3604693448987",
+            "miles-transit": "9.95276915050236"
         },
         {
             "date": "2022-08-21",
-            "miles-walked": "0.969657858484454",
-            "miles-biked": "3.04259810124021",
-            "miles-drove": "28.8335476712925",
-            "miles-transit": "8.47783773894118"
+            "miles-walked": "0.583583895381688",
+            "miles-biked": "3.44583563078617",
+            "miles-drove": "52.4762047344124",
+            "miles-transit": "15.3687205039509"
         },
         {
             "date": "2022-08-20",
-            "miles-walked": "4.80690803456968",
-            "miles-biked": "2.94414093703131",
-            "miles-drove": "45.6466730451439",
-            "miles-transit": "15.3333108974439"
+            "miles-walked": "1.86166358277777",
+            "miles-biked": "3.13334126351843",
+            "miles-drove": "42.4037258278043",
+            "miles-transit": "11.7434129109553"
         },
         {
             "date": "2022-08-19",
-            "miles-walked": "1.7103444581748",
-            "miles-biked": "1.41306418022768",
-            "miles-drove": "35.7570661946964",
-            "miles-transit": "10.3218637960714"
+            "miles-walked": "0.823407108629091",
+            "miles-biked": "1.61774453294336",
+            "miles-drove": "36.5368275330305",
+            "miles-transit": "8.51587542626922"
         },
         {
             "date": "2022-08-18",
-            "miles-walked": "2.29561482947486",
-            "miles-biked": "3.02697812774194",
-            "miles-drove": "35.12830208234",
-            "miles-transit": "8.79642555250568"
+            "miles-walked": "0.714875137903765",
+            "miles-biked": "2.82177408060647",
+            "miles-drove": "34.9490919909713",
+            "miles-transit": "9.94850112663881"
         },
         {
             "date": "2022-08-17",
-            "miles-walked": "2.24148829395598",
-            "miles-biked": "3.61718585966595",
-            "miles-drove": "35.9227013086816",
-            "miles-transit": "9.71789392242604"
+            "miles-walked": "4.00444408010754",
+            "miles-biked": "4.10552791437052",
+            "miles-drove": "34.2084216852099",
+            "miles-transit": "10.0295364583834"
         },
         {
             "date": "2022-08-16",
-            "miles-walked": "1.31964595432177",
-            "miles-biked": "1.76523307731245",
-            "miles-drove": "32.5258136715351",
-            "miles-transit": "8.95504319268982"
+            "miles-walked": "0.515535066966252",
+            "miles-biked": "3.403554066759",
+            "miles-drove": "34.6984509230994",
+            "miles-transit": "10.0902835577719"
         },
         {
             "date": "2022-08-15",
-            "miles-walked": "2.62178475918852",
-            "miles-biked": "2.58889521003544",
-            "miles-drove": "32.6181203280791",
-            "miles-transit": "9.23398685077363"
+            "miles-walked": "1.37071062577925",
+            "miles-biked": "2.25714123486822",
+            "miles-drove": "36.1448183459508",
+            "miles-transit": "10.5478978772306"
         },
         {
             "date": "2022-08-14",
-            "miles-walked": "0.88220135793955",
-            "miles-biked": "1.72819218359179",
-            "miles-drove": "19.8793329350379",
-            "miles-transit": "5.88057108710055"
+            "miles-walked": "1.81347980873117",
+            "miles-biked": "1.90383383293884",
+            "miles-drove": "51.0106502682159",
+            "miles-transit": "16.0498384347151"
         },
         {
             "date": "2022-08-13",
-            "miles-walked": "0.496098587507293",
-            "miles-biked": "1.948588998079",
-            "miles-drove": "22.111986873196",
-            "miles-transit": "6.95024103128337"
+            "miles-walked": "1.57779901487899",
+            "miles-biked": "2.34835116393126",
+            "miles-drove": "21.277805827449",
+            "miles-transit": "5.67352178088155"
         },
         {
             "date": "2022-08-12",
-            "miles-walked": "2.13775953703065",
-            "miles-biked": "0.556523662865385",
-            "miles-drove": "33.648851739512",
-            "miles-transit": "8.83468121237844"
+            "miles-walked": "3.277937556444",
+            "miles-biked": "2.72568545506038",
+            "miles-drove": "35.0232327302001",
+            "miles-transit": "10.5606642222785"
         },
         {
             "date": "2022-08-11",
-            "miles-walked": "4.61539515610762",
-            "miles-biked": "3.56841999857093",
-            "miles-drove": "34.3112712589315",
-            "miles-transit": "10.2418485023726"
+            "miles-walked": "2.47137490101233",
+            "miles-biked": "4.36865349340824",
+            "miles-drove": "34.5598475888531",
+            "miles-transit": "10.2874390508072"
         },
         {
             "date": "2022-08-10",
-            "miles-walked": "0.460529345750925",
-            "miles-biked": "1.81640645798863",
-            "miles-drove": "36.0044437206602",
-            "miles-transit": "8.60407698764923"
+            "miles-walked": "1.81872896582995",
+            "miles-biked": "2.37481624264112",
+            "miles-drove": "33.9026358908631",
+            "miles-transit": "8.36156561285427"
         },
         {
             "date": "2022-08-09",
-            "miles-walked": "0.686773500455099",
-            "miles-biked": "1.98245419362876",
-            "miles-drove": "35.2182473007114",
-            "miles-transit": "10.2619130932806"
+            "miles-walked": "0.848122521006559",
+            "miles-biked": "3.71851807066432",
+            "miles-drove": "34.1634931564552",
+            "miles-transit": "8.65883088172313"
         },
         {
             "date": "2022-08-08",
-            "miles-walked": "4.7486669160349",
-            "miles-biked": "2.13317567211137",
-            "miles-drove": "33.6191644763636",
-            "miles-transit": "9.10491652202848"
+            "miles-walked": "0.893787308777356",
+            "miles-biked": "0.925504702384484",
+            "miles-drove": "34.5742053045401",
+            "miles-transit": "10.8024472193057"
         },
         {
             "date": "2022-08-07",
-            "miles-walked": "2.92487038807896",
-            "miles-biked": "5.31696612658764",
-            "miles-drove": "52.0783911105804",
-            "miles-transit": "13.41673866483"
+            "miles-walked": "1.92780197065194",
+            "miles-biked": "3.48468161414525",
+            "miles-drove": "52.011531440081",
+            "miles-transit": "12.2989616565327"
         },
         {
             "date": "2022-08-06",
-            "miles-walked": "1.56035123535316",
-            "miles-biked": "0.237710860790755",
-            "miles-drove": "12.605534634025",
-            "miles-transit": "3.5641832911921"
+            "miles-walked": "1.84650304125542",
+            "miles-biked": "1.36681893008902",
+            "miles-drove": "32.8675340250356",
+            "miles-transit": "7.88381355003771"
         },
         {
             "date": "2022-08-05",
-            "miles-walked": "2.11760548054726",
-            "miles-biked": "3.39456611931485",
-            "miles-drove": "34.9780072315762",
-            "miles-transit": "10.8332082439529"
+            "miles-walked": "3.45112295976588",
+            "miles-biked": "2.54772568653084",
+            "miles-drove": "33.9726398911691",
+            "miles-transit": "9.79531549705835"
         },
         {
             "date": "2022-08-04",
-            "miles-walked": "2.54084793507348",
-            "miles-biked": "1.95599475284937",
-            "miles-drove": "35.2611617316848",
-            "miles-transit": "10.5549281506118"
+            "miles-walked": "2.27105263397649",
+            "miles-biked": "2.62753883667797",
+            "miles-drove": "35.9495079207029",
+            "miles-transit": "8.59944049666327"
         },
         {
             "date": "2022-08-03",
-            "miles-walked": "1.72299066447975",
-            "miles-biked": "3.14472314765596",
-            "miles-drove": "35.9752434725369",
-            "miles-transit": "11.7829979876051"
+            "miles-walked": "2.03379033610965",
+            "miles-biked": "4.11629573890258",
+            "miles-drove": "34.2007697979101",
+            "miles-transit": "7.9311775439679"
         },
         {
             "date": "2022-08-02",
-            "miles-walked": "0.261952235979265",
-            "miles-biked": "4.07530835479145",
-            "miles-drove": "35.0065959847987",
-            "miles-transit": "11.5759733648288"
+            "miles-walked": "1.14846177475779",
+            "miles-biked": "1.47846590113181",
+            "miles-drove": "35.5505250667174",
+            "miles-transit": "10.7539492311516"
         },
         {
             "date": "2022-08-01",
-            "miles-walked": "2.28353788122841",
-            "miles-biked": "2.11649614759622",
-            "miles-drove": "35.1070623570973",
-            "miles-transit": "11.2070420677905"
+            "miles-walked": "2.74655838703501",
+            "miles-biked": "4.55363091459032",
+            "miles-drove": "36.286519930463",
+            "miles-transit": "9.76215165923699"
         },
         {
             "date": "2022-07-31",
-            "miles-walked": "2.11940722774664",
-            "miles-biked": "1.0944781938224",
-            "miles-drove": "21.5835385400949",
-            "miles-transit": "6.22594438961112"
+            "miles-walked": "1.25939135683623",
+            "miles-biked": "1.51677318227271",
+            "miles-drove": "20.8085464211284",
+            "miles-transit": "6.20820778461995"
         },
         {
             "date": "2022-07-30",
-            "miles-walked": "0.800163255480326",
-            "miles-biked": "1.46515330812424",
-            "miles-drove": "14.4606868090173",
-            "miles-transit": "3.83023370706842"
+            "miles-walked": "1.29778994232944",
+            "miles-biked": "4.58002096365879",
+            "miles-drove": "59.3199109047773",
+            "miles-transit": "18.8771903731562"
         },
         {
             "date": "2022-07-29",
-            "miles-walked": "2.68024298703117",
-            "miles-biked": "1.59318443692788",
-            "miles-drove": "36.1118164055476",
-            "miles-transit": "9.96945412701735"
+            "miles-walked": "0.102933508025946",
+            "miles-biked": "3.36558150704856",
+            "miles-drove": "35.4277992047165",
+            "miles-transit": "8.94450550888142"
         },
         {
             "date": "2022-07-28",
-            "miles-walked": "1.97185181206797",
-            "miles-biked": "3.09609891908347",
-            "miles-drove": "36.0978897311708",
-            "miles-transit": "10.6056032472711"
+            "miles-walked": "2.77176328724238",
+            "miles-biked": "4.11948547482345",
+            "miles-drove": "34.4942129826271",
+            "miles-transit": "10.4798779757228"
         },
         {
             "date": "2022-07-27",
-            "miles-walked": "3.43859419917779",
-            "miles-biked": "3.96827513216374",
-            "miles-drove": "34.9300048508195",
-            "miles-transit": "8.76948330559611"
+            "miles-walked": "2.39262552250725",
+            "miles-biked": "2.1586497062664",
+            "miles-drove": "34.6254237581214",
+            "miles-transit": "9.28624805687107"
         },
         {
             "date": "2022-07-26",
-            "miles-walked": "3.05107876910246",
-            "miles-biked": "2.97318970757101",
-            "miles-drove": "33.610670653669",
-            "miles-transit": "10.9494056249394"
+            "miles-walked": "1.09655197520549",
+            "miles-biked": "1.53870464147537",
+            "miles-drove": "34.18034775028",
+            "miles-transit": "10.1297949988977"
         },
         {
             "date": "2022-07-25",
-            "miles-walked": "2.82694515839607",
-            "miles-biked": "2.57180380428627",
-            "miles-drove": "35.266560327374",
-            "miles-transit": "9.46641649923758"
+            "miles-walked": "1.18028643094489",
+            "miles-biked": "3.92078180660214",
+            "miles-drove": "35.1888367556446",
+            "miles-transit": "9.79659240317216"
         },
         {
             "date": "2022-07-24",
-            "miles-walked": "1.10971863601321",
-            "miles-biked": "1.62895036059395",
-            "miles-drove": "17.8397836571863",
-            "miles-transit": "3.87300554706675"
+            "miles-walked": "2.250726971516",
+            "miles-biked": "6.25941943944464",
+            "miles-drove": "58.9153655478881",
+            "miles-transit": "17.5936584245597"
         },
         {
             "date": "2022-07-23",
-            "miles-walked": "0.966806792938336",
-            "miles-biked": "0.812888625830146",
-            "miles-drove": "13.9195378640954",
-            "miles-transit": "4.7431591610376"
+            "miles-walked": "0.254795706192289",
+            "miles-biked": "3.15546867722321",
+            "miles-drove": "27.3893622617554",
+            "miles-transit": "9.0077185225022"
         },
         {
             "date": "2022-07-22",
-            "miles-walked": "1.97937182529049",
-            "miles-biked": "3.61314797436771",
-            "miles-drove": "34.3657805698481",
-            "miles-transit": "8.95364361358401"
+            "miles-walked": "1.19836901781971",
+            "miles-biked": "2.68799741928718",
+            "miles-drove": "33.2483615212149",
+            "miles-transit": "9.4794552686421"
         },
         {
             "date": "2022-07-21",
-            "miles-walked": "1.98880811316717",
-            "miles-biked": "2.00431017259949",
-            "miles-drove": "34.7446355346547",
-            "miles-transit": "10.6169219642378"
+            "miles-walked": "1.86041506525706",
+            "miles-biked": "2.40696669626588",
+            "miles-drove": "33.5915268659497",
+            "miles-transit": "10.0296853226577"
         },
         {
             "date": "2022-07-20",
-            "miles-walked": "3.41184417426562",
-            "miles-biked": "2.68810343289602",
-            "miles-drove": "34.4865666601443",
-            "miles-transit": "11.7976467911746"
+            "miles-walked": "0.707410493983982",
+            "miles-biked": "3.580841930165",
+            "miles-drove": "34.7183947334384",
+            "miles-transit": "8.88041258648781"
         },
         {
             "date": "2022-07-19",
-            "miles-walked": "2.44614752260922",
-            "miles-biked": "3.66832967129456",
-            "miles-drove": "35.1830210788671",
-            "miles-transit": "9.94559936149794"
+            "miles-walked": "2.59149942680762",
+            "miles-biked": "2.81416061180895",
+            "miles-drove": "35.3193465027598",
+            "miles-transit": "10.6805232928468"
         },
         {
             "date": "2022-07-18",
-            "miles-walked": "2.59467913612539",
-            "miles-biked": "2.44939565599585",
-            "miles-drove": "37.3133056398291",
-            "miles-transit": "8.76638079504747"
+            "miles-walked": "4.18456854726401",
+            "miles-biked": "4.04091334545568",
+            "miles-drove": "34.423750562604",
+            "miles-transit": "9.01266716678767"
         },
         {
             "date": "2022-07-17",
-            "miles-walked": "0.652021135965538",
-            "miles-biked": "4.20338502624955",
-            "miles-drove": "76.990614027756",
-            "miles-transit": "20.247134032503"
+            "miles-walked": "0.972368384155601",
+            "miles-biked": "2.10328877391992",
+            "miles-drove": "21.6306768607255",
+            "miles-transit": "4.82631441818632"
         },
         {
             "date": "2022-07-16",
-            "miles-walked": "33.8765950626556",
-            "miles-biked": "83.9084006003525",
-            "miles-drove": "679.726271620204",
-            "miles-transit": "145.52189023345"
+            "miles-walked": "1.36209468644861",
+            "miles-biked": "2.70368952836781",
+            "miles-drove": "29.6409197599729",
+            "miles-transit": "7.24806332802955"
         },
         {
             "date": "2022-07-15",
-            "miles-walked": "2.53926813788091",
-            "miles-biked": "1.99746402292452",
-            "miles-drove": "33.5051522447106",
-            "miles-transit": "8.62762730525463"
+            "miles-walked": "0.342375189356174",
+            "miles-biked": "2.10697720638544",
+            "miles-drove": "34.6239308309477",
+            "miles-transit": "11.2480558623552"
         },
         {
             "date": "2022-07-14",
-            "miles-walked": "1.46367904191635",
-            "miles-biked": "2.63251051778246",
-            "miles-drove": "35.4653180567343",
-            "miles-transit": "9.61379041976587"
+            "miles-walked": "1.8791702720285",
+            "miles-biked": "2.13490819814131",
+            "miles-drove": "35.8533732618974",
+            "miles-transit": "10.3112350882002"
         },
         {
             "date": "2022-07-13",
-            "miles-walked": "0.0979214350977242",
-            "miles-biked": "3.42199598669047",
-            "miles-drove": "33.7161284443853",
-            "miles-transit": "10.2980541555076"
+            "miles-walked": "2.98568076034988",
+            "miles-biked": "4.81884986439309",
+            "miles-drove": "34.6377537333951",
+            "miles-transit": "9.76780044608998"
         },
         {
             "date": "2022-07-12",
-            "miles-walked": "2.0542202531909",
-            "miles-biked": "3.14530966962646",
-            "miles-drove": "35.7127550355696",
-            "miles-transit": "10.1740725702777"
+            "miles-walked": "1.46131798867768",
+            "miles-biked": "2.54542448275553",
+            "miles-drove": "35.1509173079972",
+            "miles-transit": "10.7975914746104"
         },
         {
             "date": "2022-07-11",
-            "miles-walked": "1.81105442763859",
-            "miles-biked": "3.76222163279071",
-            "miles-drove": "35.117128001671",
-            "miles-transit": "8.83104664628404"
+            "miles-walked": "1.1772359396165",
+            "miles-biked": "1.38325745733617",
+            "miles-drove": "35.7013865693136",
+            "miles-transit": "8.2318660202885"
         },
         {
             "date": "2022-07-10",
-            "miles-walked": "1.86642437792524",
-            "miles-biked": "1.23027548765797",
-            "miles-drove": "17.5460295637787",
-            "miles-transit": "5.22478247580187"
+            "miles-walked": "1.6643041303721",
+            "miles-biked": "1.87966585596643",
+            "miles-drove": "23.8117032369519",
+            "miles-transit": "7.45603306490914"
         },
         {
             "date": "2022-07-09",
-            "miles-walked": "52.6265658355527",
-            "miles-biked": "88.5051528362169",
-            "miles-drove": "742.320581672013",
-            "miles-transit": "191.989702604907"
+            "miles-walked": "1.54420587326623",
+            "miles-biked": "1.8876485060886",
+            "miles-drove": "23.5221497868294",
+            "miles-transit": "6.35227968088982"
         },
         {
             "date": "2022-07-08",
-            "miles-walked": "0.786212640639207",
-            "miles-biked": "4.49546540502284",
-            "miles-drove": "35.0932042036379",
-            "miles-transit": "10.1525493778916"
+            "miles-walked": "1.91913101992203",
+            "miles-biked": "2.27554626142767",
+            "miles-drove": "35.348955892787",
+            "miles-transit": "9.85681375074297"
         },
         {
             "date": "2022-07-07",
-            "miles-walked": "2.08216387535913",
-            "miles-biked": "3.00038318966621",
-            "miles-drove": "35.3749689074792",
-            "miles-transit": "10.7185540030421"
+            "miles-walked": "1.39206515362241",
+            "miles-biked": "2.47360849218139",
+            "miles-drove": "35.4396931672463",
+            "miles-transit": "10.9437573167792"
         },
         {
             "date": "2022-07-06",
-            "miles-walked": "0.866446125942098",
-            "miles-biked": "1.60263852393281",
-            "miles-drove": "34.4972627125526",
-            "miles-transit": "10.9795376801905"
+            "miles-walked": "0.625448485072655",
+            "miles-biked": "2.10315161914016",
+            "miles-drove": "34.1668740740665",
+            "miles-transit": "8.28867012415089"
         },
         {
             "date": "2022-07-05",
-            "miles-walked": "3.20114252001465",
-            "miles-biked": "3.19500701725701",
-            "miles-drove": "34.1331613723663",
-            "miles-transit": "11.1879613746417"
+            "miles-walked": "1.90881058589191",
+            "miles-biked": "1.07010555701081",
+            "miles-drove": "34.537003961381",
+            "miles-transit": "9.97396646578347"
         },
         {
             "date": "2022-07-04",
-            "miles-walked": "2.97008849677655",
-            "miles-biked": "3.78941515295879",
-            "miles-drove": "34.1854789416815",
-            "miles-transit": "11.021921448398"
+            "miles-walked": "0.703966291988831",
+            "miles-biked": "3.32235891130799",
+            "miles-drove": "35.0453626192766",
+            "miles-transit": "9.40930502902043"
         },
         {
             "date": "2022-07-03",
-            "miles-walked": "3.00064219738567",
-            "miles-biked": "2.53255613092251",
-            "miles-drove": "28.5560724492636",
-            "miles-transit": "8.73576567552258"
+            "miles-walked": "0.61976793933965",
+            "miles-biked": "4.07250571735879",
+            "miles-drove": "30.8100834963131",
+            "miles-transit": "8.9754006232363"
         },
         {
             "date": "2022-07-02",
-            "miles-walked": "3.49153341188528",
-            "miles-biked": "3.61847622282678",
-            "miles-drove": "40.5847992393897",
-            "miles-transit": "12.9322835317292"
+            "miles-walked": "3.18971740195665",
+            "miles-biked": "4.45791504963755",
+            "miles-drove": "42.5643683965896",
+            "miles-transit": "13.4865307342576"
         },
         {
             "date": "2022-07-01",
-            "miles-walked": "0.67135434482107",
-            "miles-biked": "0.900263532796819",
-            "miles-drove": "36.6552400728692",
-            "miles-transit": "10.5338936943535"
+            "miles-walked": "1.36516605588038",
+            "miles-biked": "1.42547390950629",
+            "miles-drove": "36.5500226211576",
+            "miles-transit": "10.2513989229917"
         },
         {
             "date": "2022-06-30",
-            "miles-walked": "2.80771197183701",
-            "miles-biked": "1.68538519643176",
-            "miles-drove": "34.5958312403922",
-            "miles-transit": "8.44435562463765"
+            "miles-walked": "3.0962454077632",
+            "miles-biked": "4.02307054206933",
+            "miles-drove": "34.8900753297532",
+            "miles-transit": "10.805978106088"
         },
         {
             "date": "2022-06-29",
-            "miles-walked": "1.97245411819805",
-            "miles-biked": "3.04434254357985",
-            "miles-drove": "35.0458652033177",
-            "miles-transit": "9.64738061872608"
+            "miles-walked": "3.00293806954813",
+            "miles-biked": "3.25063602631204",
+            "miles-drove": "34.7132543439275",
+            "miles-transit": "8.85363460707638"
         },
         {
             "date": "2022-06-28",
-            "miles-walked": "1.83760579324169",
-            "miles-biked": "2.03445669929624",
-            "miles-drove": "35.2321394782708",
-            "miles-transit": "11.5363742108437"
+            "miles-walked": "2.62774802919744",
+            "miles-biked": "3.97219332801039",
+            "miles-drove": "35.1450980366191",
+            "miles-transit": "12.5485042363162"
         },
         {
             "date": "2022-06-27",
-            "miles-walked": "1.0739773074884",
-            "miles-biked": "1.33393603896947",
-            "miles-drove": "34.0227973889755",
-            "miles-transit": "8.93991445630089"
+            "miles-walked": "0.861208576236155",
+            "miles-biked": "4.30162525338539",
+            "miles-drove": "35.7094554616514",
+            "miles-transit": "8.67502046889122"
         },
         {
             "date": "2022-06-26",
-            "miles-walked": "1.89439452628077",
-            "miles-biked": "2.04178442705869",
-            "miles-drove": "20.1823976518415",
-            "miles-transit": "6.48732202221642"
+            "miles-walked": "1.63769847685779",
+            "miles-biked": "5.01608473794299",
+            "miles-drove": "57.8440447356326",
+            "miles-transit": "15.0550038351848"
         },
         {
             "date": "2022-06-25",
-            "miles-walked": "2.01734405604032",
-            "miles-biked": "4.28862086053536",
-            "miles-drove": "44.9631119165686",
-            "miles-transit": "12.1753231071794"
+            "miles-walked": "3.63162478706793",
+            "miles-biked": "2.15749922395225",
+            "miles-drove": "41.5482931588394",
+            "miles-transit": "11.6719198956697"
         },
         {
             "date": "2022-06-24",
-            "miles-walked": "1.46256026521234",
-            "miles-biked": "1.54931076902931",
-            "miles-drove": "32.7653307220914",
-            "miles-transit": "9.36564558135552"
+            "miles-walked": "2.54782872691491",
+            "miles-biked": "4.10818577026465",
+            "miles-drove": "36.3851942306331",
+            "miles-transit": "8.82982422996043"
         },
         {
             "date": "2022-06-23",
-            "miles-walked": "1.13456186402012",
-            "miles-biked": "1.57969492375502",
-            "miles-drove": "35.4829613416081",
-            "miles-transit": "10.4323033045951"
+            "miles-walked": "3.20978695587326",
+            "miles-biked": "3.62208859642592",
+            "miles-drove": "35.5224000565158",
+            "miles-transit": "9.38460593645976"
         },
         {
             "date": "2022-06-22",
-            "miles-walked": "2.47993695156902",
-            "miles-biked": "3.52495902417325",
-            "miles-drove": "36.0844090470437",
-            "miles-transit": "8.75916225099899"
+            "miles-walked": "2.9992288806642",
+            "miles-biked": "2.5502842385241",
+            "miles-drove": "33.9888194148008",
+            "miles-transit": "8.26740695861965"
         },
         {
             "date": "2022-06-21",
-            "miles-walked": "1.67879990672501",
-            "miles-biked": "2.67232306311851",
-            "miles-drove": "35.3938188519289",
-            "miles-transit": "10.2621287735501"
+            "miles-walked": "1.07497801675405",
+            "miles-biked": "2.29301709669399",
+            "miles-drove": "35.071972449746",
+            "miles-transit": "11.8674953246928"
         },
         {
             "date": "2022-06-20",
-            "miles-walked": "1.73761492092902",
-            "miles-biked": "3.08112991182909",
-            "miles-drove": "34.3976039131349",
-            "miles-transit": "9.92812057990548"
+            "miles-walked": "2.22501151877337",
+            "miles-biked": "3.7802235429819",
+            "miles-drove": "34.6626197094858",
+            "miles-transit": "10.3170553638362"
         },
         {
             "date": "2022-06-19",
-            "miles-walked": "0.603948267293355",
-            "miles-biked": "1.02045468598141",
-            "miles-drove": "17.1364652505515",
-            "miles-transit": "5.32949835092039"
+            "miles-walked": "2.16557115316406",
+            "miles-biked": "1.6772298993659",
+            "miles-drove": "33.3583405404896",
+            "miles-transit": "9.00012302166793"
         },
         {
             "date": "2022-06-18",
-            "miles-walked": "0.64292792367613",
-            "miles-biked": "1.73612303389187",
-            "miles-drove": "17.2427013418148",
-            "miles-transit": "5.47091765951913"
+            "miles-walked": "0.28563341894964",
+            "miles-biked": "1.79922976578996",
+            "miles-drove": "21.5476156142137",
+            "miles-transit": "6.10072408617225"
         },
         {
             "date": "2022-06-17",
-            "miles-walked": "3.79235368656409",
-            "miles-biked": "3.51803297804047",
-            "miles-drove": "36.680356800507",
-            "miles-transit": "9.83939895063351"
+            "miles-walked": "1.51958746193632",
+            "miles-biked": "3.31163438267553",
+            "miles-drove": "33.133918400516",
+            "miles-transit": "10.1445362221777"
         },
         {
             "date": "2022-06-16",
-            "miles-walked": "1.31752242632287",
-            "miles-biked": "2.8699955876631",
-            "miles-drove": "33.7678315484152",
-            "miles-transit": "11.5767518155456"
+            "miles-walked": "2.60243638329952",
+            "miles-biked": "2.91993298841578",
+            "miles-drove": "35.3133700071267",
+            "miles-transit": "9.63391286539695"
         },
         {
             "date": "2022-06-15",
-            "miles-walked": "1.60988352347862",
-            "miles-biked": "3.23389584590701",
-            "miles-drove": "35.0932969183316",
-            "miles-transit": "9.84154215631598"
+            "miles-walked": "1.82380099094745",
+            "miles-biked": "3.0475591584441",
+            "miles-drove": "33.6054672598623",
+            "miles-transit": "12.3659782379226"
         },
         {
             "date": "2022-06-14",
-            "miles-walked": "2.04544331386125",
-            "miles-biked": "2.05926072159962",
-            "miles-drove": "37.382063480269",
-            "miles-transit": "10.2393564137133"
+            "miles-walked": "2.67941748101045",
+            "miles-biked": "0.6177944209007",
+            "miles-drove": "36.3426982205672",
+            "miles-transit": "9.49058735095559"
         },
         {
             "date": "2022-06-13",
-            "miles-walked": "2.27992497978854",
-            "miles-biked": "3.6766568713733",
-            "miles-drove": "34.1472254050962",
-            "miles-transit": "9.42132081898625"
+            "miles-walked": "2.94373878416603",
+            "miles-biked": "2.77981432732301",
+            "miles-drove": "34.9392923039258",
+            "miles-transit": "11.1371891458188"
         },
         {
             "date": "2022-06-12",
-            "miles-walked": "2.5226762300826",
-            "miles-biked": "5.62439664634068",
-            "miles-drove": "40.1298668647134",
-            "miles-transit": "10.6392442170332"
+            "miles-walked": "1.87371723985672",
+            "miles-biked": "5.11673947477482",
+            "miles-drove": "50.3416983305808",
+            "miles-transit": "16.7171815165516"
         },
         {
             "date": "2022-06-11",
-            "miles-walked": "0.437614086735317",
-            "miles-biked": "2.72728973795668",
-            "miles-drove": "20.4339844571701",
-            "miles-transit": "6.91715911396744"
+            "miles-walked": "1.35940230718686",
+            "miles-biked": "0.527844485146899",
+            "miles-drove": "23.6413949471502",
+            "miles-transit": "6.15007836048374"
         },
         {
             "date": "2022-06-10",
-            "miles-walked": "0.264379041404506",
-            "miles-biked": "3.19236616921058",
-            "miles-drove": "35.4998310771707",
-            "miles-transit": "10.5071905587632"
+            "miles-walked": "0.982771434440528",
+            "miles-biked": "2.32601094396852",
+            "miles-drove": "34.8898766781542",
+            "miles-transit": "8.26424127741186"
         },
         {
             "date": "2022-06-09",
-            "miles-walked": "2.22527008700359",
-            "miles-biked": "4.39567486516198",
-            "miles-drove": "35.0417059109207",
-            "miles-transit": "8.48056765412151"
+            "miles-walked": "2.26442788884276",
+            "miles-biked": "2.57902845222348",
+            "miles-drove": "35.3151626287996",
+            "miles-transit": "11.6065036225807"
         },
         {
             "date": "2022-06-08",
-            "miles-walked": "1.3209687532707",
-            "miles-biked": "2.20573362174761",
-            "miles-drove": "35.6544866507869",
-            "miles-transit": "9.19581270472147"
+            "miles-walked": "2.87262751782112",
+            "miles-biked": "3.42198110943337",
+            "miles-drove": "34.8410462547375",
+            "miles-transit": "9.74340980632229"
         },
         {
             "date": "2022-06-07",
-            "miles-walked": "2.06576657352087",
-            "miles-biked": "2.73040480840404",
-            "miles-drove": "34.9912385481896",
-            "miles-transit": "12.1123582478351"
+            "miles-walked": "0.787511905816328",
+            "miles-biked": "2.82893009257252",
+            "miles-drove": "37.003322557592",
+            "miles-transit": "9.43370224831783"
         },
         {
             "date": "2022-06-06",
-            "miles-walked": "3.05030433064614",
-            "miles-biked": "2.18633037669872",
-            "miles-drove": "34.9850330323437",
-            "miles-transit": "11.2403850549935"
+            "miles-walked": "1.74098335032635",
+            "miles-biked": "4.17474571341592",
+            "miles-drove": "34.9234560398317",
+            "miles-transit": "10.2918711210254"
         },
         {
             "date": "2022-06-05",
-            "miles-walked": "0.951319159898769",
-            "miles-biked": "0.883622964150528",
-            "miles-drove": "11.9418772178062",
-            "miles-transit": "2.75524011747618"
+            "miles-walked": "0.685513604153777",
+            "miles-biked": "3.33732284690811",
+            "miles-drove": "53.9943732913136",
+            "miles-transit": "15.9753930800136"
         },
         {
             "date": "2022-06-04",
-            "miles-walked": "1.20041396409986",
-            "miles-biked": "4.37459633327528",
-            "miles-drove": "88.0592163018776",
-            "miles-transit": "21.9116811626573"
+            "miles-walked": "1.25150174681823",
+            "miles-biked": "2.33075550316714",
+            "miles-drove": "22.3030330915011",
+            "miles-transit": "5.26120494555969"
         },
         {
             "date": "2022-06-03",
-            "miles-walked": "2.24901093895804",
-            "miles-biked": "1.78241583414449",
-            "miles-drove": "35.2577931457582",
-            "miles-transit": "10.578484176499"
+            "miles-walked": "0.493924639521308",
+            "miles-biked": "2.28130997295309",
+            "miles-drove": "37.8909797437982",
+            "miles-transit": "9.3982791957311"
         },
         {
             "date": "2022-06-02",
-            "miles-walked": "3.89555889770678",
-            "miles-biked": "3.26138052462327",
-            "miles-drove": "35.1304536759024",
-            "miles-transit": "8.66563840461813"
+            "miles-walked": "0.519669718805809",
+            "miles-biked": "3.75435189998994",
+            "miles-drove": "34.5935637176345",
+            "miles-transit": "9.78251631966384"
         },
         {
             "date": "2022-06-01",
-            "miles-walked": "1.19692548735308",
-            "miles-biked": "2.74751511204219",
-            "miles-drove": "34.2094263874465",
-            "miles-transit": "10.395157028061"
+            "miles-walked": "1.40670152937644",
+            "miles-biked": "3.65184468051714",
+            "miles-drove": "34.6254669052985",
+            "miles-transit": "8.88083983007944"
         },
         {
             "date": "2022-05-31",
-            "miles-walked": "1.65658030789945",
-            "miles-biked": "3.53885038314014",
-            "miles-drove": "35.6540010296301",
-            "miles-transit": "10.9504891801141"
+            "miles-walked": "2.1228910552882",
+            "miles-biked": "1.45825687490618",
+            "miles-drove": "36.2723376977936",
+            "miles-transit": "10.1920995923381"
         },
         {
             "date": "2022-05-30",
-            "miles-walked": "2.09019905656114",
-            "miles-biked": "3.14063780729914",
-            "miles-drove": "34.8070733128112",
-            "miles-transit": "10.0781542270113"
+            "miles-walked": "1.58429517038449",
+            "miles-biked": "3.78875766953241",
+            "miles-drove": "34.3335937023362",
+            "miles-transit": "8.57933683598042"
         },
         {
             "date": "2022-05-29",
-            "miles-walked": "1.30726187317934",
-            "miles-biked": "1.88185217044949",
-            "miles-drove": "21.134719430063",
-            "miles-transit": "7.12744628043871"
+            "miles-walked": "1.60574269774671",
+            "miles-biked": "3.85285279726656",
+            "miles-drove": "44.3245474723025",
+            "miles-transit": "10.0576248333986"
         },
         {
             "date": "2022-05-28",
-            "miles-walked": "0.939356125663434",
-            "miles-biked": "1.59754564779091",
-            "miles-drove": "14.2700048776907",
-            "miles-transit": "4.47740901368178"
+            "miles-walked": "1.90786609119614",
+            "miles-biked": "5.47573218371334",
+            "miles-drove": "40.0354370057853",
+            "miles-transit": "13.7521901514243"
         },
         {
             "date": "2022-05-27",
-            "miles-walked": "2.78275400982012",
-            "miles-biked": "3.39576042292135",
-            "miles-drove": "34.7807153724329",
-            "miles-transit": "11.0113765817326"
+            "miles-walked": "1.91967061275807",
+            "miles-biked": "3.86882383699396",
+            "miles-drove": "36.0184765172359",
+            "miles-transit": "9.77579980494133"
         },
         {
             "date": "2022-05-26",
-            "miles-walked": "2.01966491523225",
-            "miles-biked": "3.00021213269756",
-            "miles-drove": "34.3010349691078",
-            "miles-transit": "10.1003172911408"
+            "miles-walked": "0.974517373872846",
+            "miles-biked": "2.82757770883633",
+            "miles-drove": "35.876427498671",
+            "miles-transit": "9.15315160680563"
         },
         {
             "date": "2022-05-25",
-            "miles-walked": "1.35108552638548",
-            "miles-biked": "3.61492001128285",
-            "miles-drove": "34.5266988311285",
-            "miles-transit": "11.1246132072976"
+            "miles-walked": "3.35353888060902",
+            "miles-biked": "4.25221780628466",
+            "miles-drove": "36.7147173221068",
+            "miles-transit": "10.0979828348767"
         },
         {
             "date": "2022-05-24",
-            "miles-walked": "1.74725088269939",
-            "miles-biked": "5.30585524902203",
-            "miles-drove": "35.1333816243935",
-            "miles-transit": "9.55142360819816"
+            "miles-walked": "1.38284280192226",
+            "miles-biked": "3.80574923595814",
+            "miles-drove": "36.1935257121159",
+            "miles-transit": "10.8471465292435"
         },
         {
             "date": "2022-05-23",
-            "miles-walked": "1.02461321011333",
-            "miles-biked": "2.34983157645049",
-            "miles-drove": "35.1230785286428",
-            "miles-transit": "11.4957264124632"
+            "miles-walked": "1.50408130505828",
+            "miles-biked": "3.0556950113249",
+            "miles-drove": "35.8128444791083",
+            "miles-transit": "7.33178385453166"
         },
         {
             "date": "2022-05-22",
-            "miles-walked": "0.891746163503009",
-            "miles-biked": "0.977677245749925",
-            "miles-drove": "11.8642054206132",
-            "miles-transit": "3.83830067201236"
+            "miles-walked": "0.685255779940135",
+            "miles-biked": "1.34560104369169",
+            "miles-drove": "20.8219917607263",
+            "miles-transit": "7.35199501143803"
         },
         {
             "date": "2022-05-21",
-            "miles-walked": "1.21383946889572",
-            "miles-biked": "0.873509898835627",
-            "miles-drove": "17.1023730952988",
-            "miles-transit": "4.84821935504096"
+            "miles-walked": "0.145688453938791",
+            "miles-biked": "3.05014044067472",
+            "miles-drove": "55.0783019350441",
+            "miles-transit": "17.1670345514633"
         },
         {
             "date": "2022-05-20",
-            "miles-walked": "0.437202669872061",
-            "miles-biked": "3.07865721920951",
-            "miles-drove": "34.6676850256763",
-            "miles-transit": "8.63948765621053"
+            "miles-walked": "1.01305243406307",
+            "miles-biked": "4.09885720490179",
+            "miles-drove": "35.1246970905888",
+            "miles-transit": "9.1266736467481"
         },
         {
             "date": "2022-05-19",
-            "miles-walked": "0.652752089212542",
-            "miles-biked": "2.75045523444732",
-            "miles-drove": "34.5963427333222",
-            "miles-transit": "10.2285840970502"
+            "miles-walked": "0.966560742701953",
+            "miles-biked": "3.48625118693157",
+            "miles-drove": "35.9468701463285",
+            "miles-transit": "9.17542233078828"
         },
         {
             "date": "2022-05-18",
-            "miles-walked": "2.65619226595528",
-            "miles-biked": "3.60846848330825",
-            "miles-drove": "35.0805520717558",
-            "miles-transit": "9.37696396769575"
+            "miles-walked": "2.35331844519989",
+            "miles-biked": "6.02077614994179",
+            "miles-drove": "35.7188444800555",
+            "miles-transit": "8.69623824065981"
         },
         {
             "date": "2022-05-17",
-            "miles-walked": "0.385923797397808",
-            "miles-biked": "2.38428183384363",
-            "miles-drove": "35.7735515281947",
-            "miles-transit": "10.0305236932994"
+            "miles-walked": "2.720363408768",
+            "miles-biked": "1.96720061613554",
+            "miles-drove": "35.465148928282",
+            "miles-transit": "9.04968813793766"
         },
         {
             "date": "2022-05-16",
-            "miles-walked": "0.79905432662191",
-            "miles-biked": "2.53265787181224",
-            "miles-drove": "35.0614518518844",
-            "miles-transit": "9.07181911516473"
+            "miles-walked": "1.44648227615956",
+            "miles-biked": "3.16490415659278",
+            "miles-drove": "35.6400928520719",
+            "miles-transit": "10.4162390046074"
         },
         {
             "date": "2022-05-15",
-            "miles-walked": "1.70694863387804",
-            "miles-biked": "3.40693800396313",
-            "miles-drove": "24.0088796446301",
-            "miles-transit": "6.57761342231149"
+            "miles-walked": "3.26650623729866",
+            "miles-biked": "5.14590461037528",
+            "miles-drove": "60.2179061309778",
+            "miles-transit": "14.5038802609708"
         },
         {
             "date": "2022-05-14",
-            "miles-walked": "2.79943000841867",
-            "miles-biked": "2.56490859180588",
-            "miles-drove": "30.3954275768929",
-            "miles-transit": "9.28288888114315"
+            "miles-walked": "0.947728065123137",
+            "miles-biked": "1.44776103906458",
+            "miles-drove": "21.9219085086358",
+            "miles-transit": "5.51363731966463"
         },
         {
             "date": "2022-05-13",
-            "miles-walked": "2.20096719307599",
-            "miles-biked": "1.7731266577316",
-            "miles-drove": "35.2480388312449",
-            "miles-transit": "11.0980271771231"
+            "miles-walked": "1.78735584861049",
+            "miles-biked": "2.61183124007278",
+            "miles-drove": "35.4420529564519",
+            "miles-transit": "8.92890539209192"
         },
         {
             "date": "2022-05-12",
-            "miles-walked": "1.93680436136019",
-            "miles-biked": "4.13909271887015",
-            "miles-drove": "35.0620282061754",
-            "miles-transit": "11.3062886257128"
+            "miles-walked": "1.3775012729194",
+            "miles-biked": "3.32079844518944",
+            "miles-drove": "35.0337302808622",
+            "miles-transit": "8.23005117615505"
         },
         {
             "date": "2022-05-11",
-            "miles-walked": "2.47998972876909",
-            "miles-biked": "3.45779436325663",
-            "miles-drove": "33.7705204646252",
-            "miles-transit": "9.76511968949955"
+            "miles-walked": "0.684974022021696",
+            "miles-biked": "2.63690783498339",
+            "miles-drove": "34.5004068692152",
+            "miles-transit": "10.6291804496951"
         },
         {
             "date": "2022-05-10",
-            "miles-walked": "1.32995109173933",
-            "miles-biked": "4.64137457166834",
-            "miles-drove": "35.3765842375042",
-            "miles-transit": "9.50274067080678"
+            "miles-walked": "3.0042179385462",
+            "miles-biked": "5.83115375861226",
+            "miles-drove": "35.9254622868465",
+            "miles-transit": "8.76307997784096"
         },
         {
             "date": "2022-05-09",
-            "miles-walked": "2.21955099461417",
-            "miles-biked": "3.76936341643066",
-            "miles-drove": "34.2014383224247",
-            "miles-transit": "9.82509098229868"
+            "miles-walked": "0.592890423587701",
+            "miles-biked": "2.38620137763224",
+            "miles-drove": "33.0268656070416",
+            "miles-transit": "11.637582004207"
         },
         {
             "date": "2022-05-08",
-            "miles-walked": "0.960778453706935",
-            "miles-biked": "1.31668528645482",
-            "miles-drove": "17.5024376186734",
-            "miles-transit": "4.75820105100682"
+            "miles-walked": "2.89475349739771",
+            "miles-biked": "5.27843362563493",
+            "miles-drove": "48.5168287446236",
+            "miles-transit": "14.4789613056019"
         },
         {
             "date": "2022-05-07",
-            "miles-walked": "1.98429073573394",
-            "miles-biked": "5.70715334465865",
-            "miles-drove": "51.6345007960324",
-            "miles-transit": "12.2220263340083"
+            "miles-walked": "1.79073921399105",
+            "miles-biked": "2.67748581245066",
+            "miles-drove": "30.8836561725419",
+            "miles-transit": "8.78487999479943"
         },
         {
             "date": "2022-05-06",
-            "miles-walked": "1.07365813333993",
-            "miles-biked": "3.14464295223616",
-            "miles-drove": "35.9315397819298",
-            "miles-transit": "9.55372016302766"
+            "miles-walked": "2.60775884080269",
+            "miles-biked": "4.44780265300327",
+            "miles-drove": "35.8690360634236",
+            "miles-transit": "9.7739589236403"
         },
         {
             "date": "2022-05-05",
-            "miles-walked": "2.61130719386033",
-            "miles-biked": "2.58058790083379",
-            "miles-drove": "34.338632160019",
-            "miles-transit": "10.8734272735692"
+            "miles-walked": "0.290198991705008",
+            "miles-biked": "2.3442231103339",
+            "miles-drove": "35.2241560678371",
+            "miles-transit": "9.291538119326"
         },
         {
             "date": "2022-05-04",
-            "miles-walked": "2.24030739714466",
-            "miles-biked": "3.08716496857667",
-            "miles-drove": "36.0123312601127",
-            "miles-transit": "9.68904143901176"
+            "miles-walked": "1.6795506764668",
+            "miles-biked": "2.30707945472481",
+            "miles-drove": "35.4117536452454",
+            "miles-transit": "11.6550661024184"
         },
         {
             "date": "2022-05-03",
-            "miles-walked": "3.44603352238724",
-            "miles-biked": "2.74536217806309",
-            "miles-drove": "33.7653001968292",
-            "miles-transit": "10.4403004911719"
+            "miles-walked": "2.05615889185536",
+            "miles-biked": "2.54421198821987",
+            "miles-drove": "33.4527718239735",
+            "miles-transit": "9.73592812715964"
         },
         {
             "date": "2022-05-02",
-            "miles-walked": "2.36301534192807",
-            "miles-biked": "1.57077003182914",
-            "miles-drove": "35.2393721969735",
-            "miles-transit": "9.08703891702415"
+            "miles-walked": "0.0204996434037612",
+            "miles-biked": "4.35102556328095",
+            "miles-drove": "33.1597859833177",
+            "miles-transit": "11.9929447313647"
         },
         {
             "date": "2022-05-01",
-            "miles-walked": "1.25696577835977",
-            "miles-biked": "4.44113872136704",
-            "miles-drove": "47.5629626162713",
-            "miles-transit": "14.2826222962878"
+            "miles-walked": "1.6376083916692",
+            "miles-biked": "7.37243136209084",
+            "miles-drove": "57.0019857586512",
+            "miles-transit": "16.4984404637497"
         },
         {
             "date": "2022-04-30",
-            "miles-walked": "1.84840989236668",
-            "miles-biked": "3.66323938033232",
-            "miles-drove": "28.3234982890931",
-            "miles-transit": "8.27202495088027"
+            "miles-walked": "2.27138965323726",
+            "miles-biked": "6.240616753078",
+            "miles-drove": "51.0046260430587",
+            "miles-transit": "14.7272656108552"
         },
         {
             "date": "2022-04-29",
-            "miles-walked": "1.77599101197561",
-            "miles-biked": "2.23730587256353",
-            "miles-drove": "34.6577668294011",
-            "miles-transit": "10.8728932056821"
+            "miles-walked": "1.27761907920892",
+            "miles-biked": "3.84566541035404",
+            "miles-drove": "34.2263199076783",
+            "miles-transit": "9.58169292190625"
         },
         {
             "date": "2022-04-28",
-            "miles-walked": "2.61466041249419",
-            "miles-biked": "4.24852268517167",
-            "miles-drove": "33.7720492106909",
-            "miles-transit": "11.7909925269506"
+            "miles-walked": "2.78613269635286",
+            "miles-biked": "3.35322205539542",
+            "miles-drove": "36.4248103555811",
+            "miles-transit": "11.5856439482494"
         },
         {
             "date": "2022-04-27",
-            "miles-walked": "1.25487258873525",
-            "miles-biked": "4.06239970787508",
-            "miles-drove": "34.6159236983971",
-            "miles-transit": "10.2551813919847"
+            "miles-walked": "0.956832199980782",
+            "miles-biked": "2.05836046835304",
+            "miles-drove": "35.3116602581076",
+            "miles-transit": "10.319840311932"
         },
         {
             "date": "2022-04-26",
-            "miles-walked": "0.34490222734681",
-            "miles-biked": "2.95758274419727",
-            "miles-drove": "35.9040307440949",
-            "miles-transit": "11.6780523992231"
+            "miles-walked": "1.24097784423735",
+            "miles-biked": "2.18677290530897",
+            "miles-drove": "35.24243609852",
+            "miles-transit": "11.457361362208"
         },
         {
             "date": "2022-04-25",
-            "miles-walked": "1.48624138755837",
-            "miles-biked": "1.63997757914667",
-            "miles-drove": "35.36999786124",
-            "miles-transit": "11.2250557356886"
+            "miles-walked": "3.06484429412154",
+            "miles-biked": "3.25831930775353",
+            "miles-drove": "35.966104110015",
+            "miles-transit": "11.2849400398424"
         },
         {
             "date": "2022-04-24",
-            "miles-walked": "18.100864196183",
-            "miles-biked": "65.9267948010705",
-            "miles-drove": "566.017842099042",
-            "miles-transit": "174.563183258019"
+            "miles-walked": "1.56717091892856",
+            "miles-biked": "1.67638187570244",
+            "miles-drove": "24.0581916504171",
+            "miles-transit": "6.25878140682326"
         },
         {
             "date": "2022-04-23",
-            "miles-walked": "32.7568935633991",
-            "miles-biked": "21.4109791512048",
-            "miles-drove": "374.283289721983",
-            "miles-transit": "101.007532371654"
+            "miles-walked": "0.78773898918748",
+            "miles-biked": "2.53658124598153",
+            "miles-drove": "21.5304067669181",
+            "miles-transit": "5.59889568101892"
         },
         {
             "date": "2022-04-22",
-            "miles-walked": "1.98894348772642",
-            "miles-biked": "4.96937258130001",
-            "miles-drove": "33.934552562149",
-            "miles-transit": "10.9251450933347"
+            "miles-walked": "0.199690052555042",
+            "miles-biked": "2.11386715697632",
+            "miles-drove": "36.4685945999414",
+            "miles-transit": "9.84904777162532"
         },
         {
             "date": "2022-04-21",
-            "miles-walked": "3.71235274357157",
-            "miles-biked": "1.63364040388216",
-            "miles-drove": "34.8780501833381",
-            "miles-transit": "8.94027976302706"
+            "miles-walked": "3.91836199879973",
+            "miles-biked": "3.9731695471658",
+            "miles-drove": "35.3278802516803",
+            "miles-transit": "10.0004787815297"
         },
         {
             "date": "2022-04-20",
-            "miles-walked": "2.29513083492733",
-            "miles-biked": "3.5897117348468",
-            "miles-drove": "33.7998739832496",
-            "miles-transit": "8.46075498242777"
+            "miles-walked": "2.30121559276229",
+            "miles-biked": "3.85869128747262",
+            "miles-drove": "34.5716142044904",
+            "miles-transit": "11.3850544077541"
         }
     ]
 }
