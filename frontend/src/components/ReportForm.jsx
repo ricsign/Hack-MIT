@@ -1,8 +1,8 @@
 import { React, useState } from "react";
 
-const ReportForm = (startTrip, stopTrip, status) => {
-  const title = <h3>Add a Trip</h3>;
-  const [mode, setMode] = useState("");
+const ReportForm = (startTrip, stopTrip) => {
+  const title = <h3>Add a Trip</h3>
+  const [mode, setMode] = useState("")
   const [isTripStarted, setIsTripStarted] = useState(false);
 
   return (
