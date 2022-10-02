@@ -1,6 +1,6 @@
 # Hack MIT Project: Trip Tracker
 
-![alt text](https://github.com/martinzha28/Hack-MIT/blob/main/frontend/public/logo.png?raw=true)
+![Trip Tracker](https://github.com/martinzha28/Hack-MIT/blob/main/frontend/public/logo.png)
 
 #Introduction
 
