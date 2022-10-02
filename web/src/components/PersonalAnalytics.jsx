@@ -28,12 +28,12 @@ ChartJS.register(
 function PersonalAnalytics() {
     const [analyticsData, setAnalyticsData] = useState([]);
   useEffect(() => {
-    setAnalyticsData(data["personal-analytics"].reverse())
+    setAnalyticsData(data["personal-analytics"])
   }, [])
   const lineChart = (
     <Line
         data = {{
-            labels: analyticsData.reverse().flatMap(a => a["date"]), 
+            labels: analyticsData.flatMap(a => a["date"]), 
             datasets: [{
                 data: analyticsData.flatMap(a => a["miles-walked"]),
                 label: "Walking Distance (Mi)",
