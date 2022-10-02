@@ -47,16 +47,17 @@ function App() {
     setDelay(null);
   };
 
+  useInterval(() => {
+    getLocation();
+    if (status != null) {
+      setDelay(null)
+    }
+  }, delay);
+
   useEffect(() => {
     var curReduced = getUser(0);
     setReduced(curReduced);
 
-    useInterval(() => {
-      getLocation();
-      if (status != null) {
-        setDelay(null)
-      }
-    }, delay);
   }, []);
 
   return (
