@@ -22,7 +22,6 @@ function App() {
   const [distanceTraveled, setDistance] = useState(0);
 
   const addToTrip = (coord) => {
-    console.log(coord)
     setTrips(old => {
       const lastInd = old.length - 1;
       const prevTrips = old.slice(0, lastInd);
@@ -33,7 +32,6 @@ function App() {
 
   const getLocation = () => {
     if (DATA_SOURCE === "gps") {
-      console.log(trips)
       if (!navigator.geolocation) {
         setStatus('Geolocation is not supported by your browser');
       } else {
