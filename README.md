@@ -1,7 +1,6 @@
 # Hack-MIT
 
-![alt text](https://github.com/martinzha28/Hack-MIT/blob/frontend/public/logo.png/logo.png?raw=true)
-
+![alt text](https://github.com/martinzha28/Hack-MIT/blob/main/frontend/public/logo.png?raw=true)
 
 With rising carbon emissions 
 
