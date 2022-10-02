@@ -29,3 +29,17 @@ h1 {
   object-fit: cover;
 }
 
+#record {
+  color: white;
+  background-image: url("../public/rc.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#analytics {
+  background-image: url("../public/ma.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
