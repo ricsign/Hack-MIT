@@ -14,6 +14,10 @@ export default function RouteMap({ trips }) {
   });
 
   useEffect(() => {
+    if (trips.length === 0) {
+      setBounds({ latMin: -90, latMax: 90, lngMin: -180, lngMax: 180 });
+      return;
+    }
     let latMin = 90,
       latMax = -90,
       lngMin = 180,
@@ -79,7 +83,7 @@ export default function RouteMap({ trips }) {
             clickableIcons: false,
           }}
         >
-          {trips.map((trip) => tripPolyline(trip))}
+          {trips.map((trip) => tripPolyline(trip)) ?? <></>}
         </GoogleMap>
       </LoadScript>
     </div>
