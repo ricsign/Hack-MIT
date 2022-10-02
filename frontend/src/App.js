@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import { getUser } from './util';
+import useInterval from 'react-useinterval';
+import getPreciseDistance from 'geolib/es/getDistance';
 import './App.css';
 import Navbar from './components/Navbar.jsx'
 import ReportForm from './components/ReportForm.jsx';
@@ -8,11 +10,55 @@ import Leaderboard from './components/Leaderboard';
 
 function App() {
   const [userReduced, setReduced] = useState({});
+  const [lat, setLat] = useState(null);
+  const [lng, setLng] = useState(null);
+  const [locations, setLocations] = useState([]);
+  const [status, setStatus] = useState(null);
+  const [delay, setDelay] = useState(null);
+  const [distanceTraveled, setDistance] = useState(0);
+
+  const getLocation = () => {
+    if (!navigator.geolocation) {
+      setStatus('Geolocation is not supported by your browser');
+    } else {
+      setStatus('Locating...');
+      navigator.geolocation.getCurrentPosition((position) => {
+        setStatus(null);
+        var distance = getPreciseDistance(
+          {latitude: lat, longitude: lng},
+          {latitude: position.coords.latitude, longitude: position.coords.longitude}
+        );
+        setDistance(oldDistance => oldDistance + distance);
+        setLocations(locations => [...locations, [position.coords.latitude, position.coords.longitude]]);
+        setLat(position.coords.latitude);
+        setLng(position.coords.longitude);
+      }, () => {
+        setStatus('Unable to retrieve your location');
+      });
+    }
+  }
+
+
+  const startTrip = () => {
+    setDelay(30000);
+  };
+
+  const endTrip = () => {
+    setDelay(null);
+  };
 
   useEffect(() => {
     var curReduced = getUser(0);
     setReduced(curReduced);
+
+    useInterval(() => {
+      getLocation();
+      if (status != null) {
+        setDelay(null)
+      }
+    }, delay);
   }, []);
+
   return (
     <div className="App">
       <Navbar />
@@ -31,8 +77,7 @@ function App() {
               ]},
           ]}
       />
-      <ReportForm />
-      <Leaderboard />
+      <ReportForm startTrip = {startTrip} endTrip = {endTrip}/>
     </div>
   );
 }
