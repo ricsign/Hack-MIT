@@ -3,7 +3,7 @@ import React from "react";
 function Leaderboard() {
   return (
     <div className="mt-5">
-      <h1>Leaderboard</h1>
+      <h1 id="leaderboard">Leaderboard</h1>
       <table className="table table-success table-striped">
         <thead>
           <tr>
