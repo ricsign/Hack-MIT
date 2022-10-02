@@ -2,9 +2,9 @@ import React from "react";
 
 function PersonalAnalytics() {
   return (
-    <div className="p-3 mt-5 pb-4" style={{ backgroundColor: "#E1FFB1" }}>
+    <div className="p-4 mt-5" style={{ backgroundColor: "#E1FFB1" }}>
       <h1>My Analytics</h1>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4 p-4">
         <div class="col">
           <div class="card h-100">
             <img src="https://cdn.80.lv/api/upload/post/3206/images/5d2c729980b39/widen_1220x0.jpg" class="card-img-top" alt="..." />
