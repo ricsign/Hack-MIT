@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import {
   GoogleMap,
   LoadScript,
-  MarkerF,
   PolylineF,
 } from "@react-google-maps/api";
 
@@ -38,7 +37,7 @@ export default function RouteMap({ trips }) {
   };
 
   const calcZoom = (bounds) => {
-    const latZoomFactor = 180 / (bounds.latMax - bounds.latMin);
+    const latZoomFactor = 180 / ((bounds.latMax - bounds.latMin) * 2 / 3);
     const lngZoomFactor = 360 / (bounds.lngMax - bounds.lngMin);
     return Math.floor(Math.log2(Math.min(latZoomFactor, lngZoomFactor)));
   };
