@@ -63,8 +63,15 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
-      <h2>Today: you have reduced {userReduced["today"]}</h2>
+      <div className="headline d-flex">
+        <Navbar />
+        <h1 className="align-self-end my-5 py-3">
+          Today, you have reduced {userReduced["today"]} <br/>
+          <b style={{fontSize: "60px"}}>1230 T</b>
+        </h1>
+        
+      </div>
+      
       <RouteMap trips={
           [
               {type: "driving", coords: [

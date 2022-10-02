@@ -4,12 +4,22 @@
   font-size: 18px;
 }
 
+
 .navbar {
   padding: 20px;
 }
 
 .nav-link{
-  margin-left: 30%;
+  margin-left: 20%;
+}
+
+.headline {
+  height: 700px;
+  background-image: url("https://cdn1.epicgames.com/ue/product/Screenshot/MarketplaceElvishForest1-1920x1080-c274f719ca8125c6c448f7da7bf93766.jpg?resize=1&w=1920");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
 }
 
 .card-img-top {
