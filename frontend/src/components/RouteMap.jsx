@@ -6,16 +6,10 @@ import {
 } from "@react-google-maps/api";
 
 export default function RouteMap({ trips }) {
-  const [bounds, setBounds] = useState({
-    latMin: 0,
-    latMax: 0,
-    lngMin: 0,
-    lngMax: 0,
-  });
+  const [bounds, setBounds] = useState(null);
 
   useEffect(() => {
     if (trips.length === 0) {
-      setBounds({ latMin: -90, latMax: 90, lngMin: -180, lngMax: 180 });
       return;
     }
     let latMin = 90,
@@ -34,6 +28,8 @@ export default function RouteMap({ trips }) {
   }, [trips]);
 
   const calcCenter = (bounds) => {
+    if (bounds === null)
+      return {lat: 42.3736, lng: -71.1097}
     return {
       lat: (bounds.latMin + bounds.latMax) / 2,
       lng: (bounds.lngMin + bounds.lngMax) / 2,
@@ -41,9 +37,11 @@ export default function RouteMap({ trips }) {
   };
 
   const calcZoom = (bounds) => {
-    const latZoomFactor = 180 / ((bounds.latMax - bounds.latMin) * 2 / 3);
+    if (bounds == null)
+      return 12;
+    const latZoomFactor = 180 / (bounds.latMax - bounds.latMin);
     const lngZoomFactor = 360 / (bounds.lngMax - bounds.lngMin);
-    return Math.floor(Math.log2(Math.min(latZoomFactor, lngZoomFactor)));
+    return Math.min(Math.floor(Math.log2(Math.min(latZoomFactor, lngZoomFactor))), 17);
   };
 
   const tripPolyline = (trip) => {
@@ -81,6 +79,7 @@ export default function RouteMap({ trips }) {
             zoomControl: false,
             panControl: false,
             clickableIcons: false,
+            keyboardShortcuts: false,
           }}
         >
           {trips.map((trip) => tripPolyline(trip)) ?? <></>}
