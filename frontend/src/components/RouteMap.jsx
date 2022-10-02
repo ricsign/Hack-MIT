@@ -35,7 +35,7 @@ export default function RouteMap({ trips }) {
       lng: (bounds.lngMin + bounds.lngMax) / 2,
     };
   };
-
+  
   const calcZoom = (bounds) => {
     if (bounds == null)
       return 12;
