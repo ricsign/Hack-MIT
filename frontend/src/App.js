@@ -84,7 +84,6 @@ function App() {
   }, []);
 
   useEffect(() => {
-    console.log(tripMode);
     setTrips((old) => {
       if (old.length > 0) {
         old[old.length - 1].type = tripMode;

@@ -68,8 +68,8 @@ export default function RouteMap({ trips }) {
       <LoadScript googleMapsApiKey={process.env.REACT_APP_MAPS_API_KEY}>
         <GoogleMap
           mapContainerStyle={{
-            width: "80em",
-            height: "40em",
+            width: "100%",
+            height: "70vh",
           }}
           center={calcCenter(bounds)}
           zoom={calcZoom(bounds)}
