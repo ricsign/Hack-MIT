@@ -4,7 +4,7 @@ w <-rnorm(days,1.8)
 d <- rnorm(days,35)
 t <- rnorm(days,10)
 b <- rnorm(days, 3)
-
+z
 for (x in 1:days) {
   moretravel <- sample(2, 1)
   travelfactor <- runif(1, 1.3, 2)
