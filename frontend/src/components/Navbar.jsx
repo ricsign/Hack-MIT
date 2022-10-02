@@ -3,7 +3,7 @@ import React from "react";
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg mb-5" style={{backgroundColor: "#E1FFB1"}}>
+      <nav className="navbar navbar-expand-lg navbar-dark align-self-start">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <i><b>Sus Tainability</b></i>
@@ -21,16 +21,16 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link active" ariaCurrent="page" href="#">
+              <a className="nav-link active" ariaCurrent="page" href="#home">
                 Home
               </a>
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#record">
                 Record
               </a>
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#leaderboard">
                 Leaderboard
               </a>
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#analytics">
                 Analytics
               </a>
             </div>
