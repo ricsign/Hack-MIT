@@ -79,6 +79,7 @@ function App() {
           ]}
       />
       <ReportForm startTrip = {startTrip} endTrip = {endTrip}/>
+      <Leaderboard />
     </div>
   );
 }
