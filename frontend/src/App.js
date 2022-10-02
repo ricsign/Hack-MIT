@@ -20,6 +20,7 @@ function App() {
   const [status, setStatus] = useState(null);
   const [delay, setDelay] = useState(null);
   const [distanceTraveled, setDistance] = useState(0);
+  const [emissionsSaved, setEmissionsSaved] = useState(0);
 
   const addToTrip = (coord) => {
     setTrips(old => {
@@ -52,22 +53,37 @@ function App() {
         });
       }
     } else if (DATA_SOURCE === "local") {
-      addToTrip(routes[localDataPos.file][localDataPos.line]);
+      let curLoc = routes[localDataPos.file][localDataPos.line];
+      let lastTrip = trips[trips.length - 1] ?? {type: "", coords: []}
+      let lastLoc = lastTrip.coords.length > 0 ? lastTrip.coords[lastTrip.coords.length - 1] : curLoc;
+      let distance = getPreciseDistance(
+        { latitude: lastLoc.lat, longitude: lastLoc.lng },
+        { latitude: curLoc.lat, longitude: curLoc.lng }
+      );
+      addToTrip(curLoc);
+      setDistance(oldDistance => oldDistance + distance);
       setLocalDataPos((old) => ({
         file: old.file,
         line: Math.min(old.line + 1, routes[old.file].length - 1),
       }))
+
     }
   }
 
   const startTrip = () => {
     setTrips([...trips, {type: tripMode, coords: []}])
     getLocation()
-    setDelay(5000);
+    setDelay(500);
   };
 
   const endTrip = () => {
     setLocalDataPos(old => ({ file: Math.min(routes.length - 1, old.file + 1), line: 0 }));
+    console.log(distanceTraveled)
+    if (trips[trips.length - 1].type === "walking" || trips[trips.length - 1].type === "biking") {
+      setEmissionsSaved(emissionsSaved + distanceTraveled * 0.03);
+    } else if (trips[trips.length - 1].type === "transit") {
+      setEmissionsSaved(emissionsSaved + distanceTraveled * 0.01);
+    }
     setDelay(null);
   };
 
@@ -80,7 +96,7 @@ function App() {
 
   useEffect(() => {
     var curReduced = getUser(0);
-    setReduced(curReduced);
+    setReduced(curReduced / 100);
   }, []);
 
   useEffect(() => {
@@ -98,7 +114,7 @@ function App() {
         <Navbar />
         <h1 className="align-self-end my-5 py-3">
           Today, you have reduced {userReduced["today"]} <br/>
-          <b style={{fontSize: "60px"}}>1230 T</b>
+          <b style={{fontSize: "60px"}}>{`${Math.round(emissionsSaved * 100) / 100} kg`}</b>
         </h1>
         
       </div>

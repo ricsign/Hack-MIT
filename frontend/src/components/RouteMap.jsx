@@ -46,8 +46,8 @@ export default function RouteMap({ trips }) {
 
   const tripPolyline = (trip) => {
     let color = "black";
-    if (trip.type === "biking" || trip.type === "walking") color = "green";
-    else if (trip.type === "transit") color = "yellow";
+    if (trip.type === "biking" || trip.type === "walking") color = "blue";
+    else if (trip.type === "transit") color = "green";
     else if (trip.type === "driving") color = "red";
 
     return (
