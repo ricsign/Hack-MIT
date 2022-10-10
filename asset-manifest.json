@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/hackmit2022/static/css/main.44f4eff4.css",
-    "main.js": "/hackmit2022/static/js/main.e875882f.js",
+    "main.js": "/hackmit2022/static/js/main.e1a2fb7f.js",
     "static/js/787.4d7ef778.chunk.js": "/hackmit2022/static/js/787.4d7ef778.chunk.js",
     "static/media/rc.jpg": "/hackmit2022/static/media/rc.22d1c6b29200c9399e1b.jpg",
     "static/media/ma.jpg": "/hackmit2022/static/media/ma.86045e356a6e269260fb.jpg",
     "index.html": "/hackmit2022/index.html",
     "main.44f4eff4.css.map": "/hackmit2022/static/css/main.44f4eff4.css.map",
-    "main.e875882f.js.map": "/hackmit2022/static/js/main.e875882f.js.map",
+    "main.e1a2fb7f.js.map": "/hackmit2022/static/js/main.e1a2fb7f.js.map",
     "787.4d7ef778.chunk.js.map": "/hackmit2022/static/js/787.4d7ef778.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44f4eff4.css",
-    "static/js/main.e875882f.js"
+    "static/js/main.e1a2fb7f.js"
   ]
 }
